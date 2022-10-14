@@ -11,6 +11,6 @@ int main(void)
 {
 	char t[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	fwrite(1, t, 59);
+	fprintf(stderr,"%s", &t);
 	return (1);
 }
