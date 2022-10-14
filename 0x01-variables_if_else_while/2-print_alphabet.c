@@ -9,9 +9,10 @@
 
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz\n";
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	int count = 0;
 	int stop = sizeof(alpha);
+	int subc=0;
 
 	while (count < stop)
 	{
@@ -20,7 +21,11 @@ int main(void)
 
 		if (count == (stop + 1))
 		{
+			while (subc < 2)
+			{
 			putchar('\n');
+			subc++;
+			}
 		}
 	}
 	return (0);
