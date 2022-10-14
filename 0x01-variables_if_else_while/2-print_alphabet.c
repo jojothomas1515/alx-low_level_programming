@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz\n";
 	int count = 0;
 	int stop = sizeof(alpha);
 
