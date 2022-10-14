@@ -9,19 +9,14 @@
 
 int main(void)
 {
-	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
-	int count = 0;
-	int stop = sizeof(alpha);
+	char alpha = 'a';
 
-	while (count < stop)
+	while (alpha <= 'z')
 	{
-		putchar(alpha[count]);
-
-		if (count == stop - 1)
-		{
-			putchar('\n');
-		}
-		count++;
+		putchar(alpha);
+		alpha++;
 	}
+	putchar('\n');
+
 	return (0);
 }
