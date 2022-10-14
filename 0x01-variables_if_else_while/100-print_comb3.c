@@ -14,12 +14,19 @@ int main(void)
 
 	while (dig1 < 10)
 	{
-		dig2 = 0 ;
+		dig2 = 0;
 
 		while (dig2 < 10)
 		{
+			if (dig1 == 0 && dig2 == 0)
+			{
+				dig2++;
+				continue;
+			}
 			putchar(dig1 + '0');
 			putchar(dig2 + '0');
+			putchar(',');
+			putchar(' ');
 			dig2++;
 		}
 
