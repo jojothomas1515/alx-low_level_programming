@@ -19,11 +19,7 @@ int main(void)
 		{
 			putchar(alpha[count]);
 		}
-		else
-		{
-			putchar('\0');
-		}
-
+		
 		count++;
 	}
 	return (0);
