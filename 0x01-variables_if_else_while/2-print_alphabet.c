@@ -13,13 +13,16 @@ int main(void)
 	int count = 0;
 	int stop = sizeof(alpha);
 
-	while (count <= stop + 1)
+	while (count <= stop)
 	{
 		if (count < stop)
 		{
 			putchar(alpha[count]);
 		}
-		
+		else
+		{
+			putchar('\n');
+		}
 		count++;
 	}
 	return (0);
