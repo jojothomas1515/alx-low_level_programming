@@ -12,7 +12,7 @@ int main(void)
 	int dig1 = 0;
 	int dig2;
 
-	while (dig1 < 10)
+	while (dig1 < 9)
 	{
 		dig2 = 0;
 
