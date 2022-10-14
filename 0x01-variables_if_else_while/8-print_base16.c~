@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+/**
+ * main - Program Entry Point
+ *
+ * Description: print all of base 16
+ * Return: returns 0
+ */
+
+int main(void)
+{
+	int base_num = 0;
+	char base_alpha = 'a';
+	char alpha_end = 'f';
+
+	while(base_num < 10)
+	{
+		putchar(base_num + '0');
+		base_num++;
+	}
+	while (base_alpha <= alpha_end)
+	{
+		putchar(base_alpha);
+		base_alpha++;
+	}
+	putchar('\n');
+
+	return (0);
+}
