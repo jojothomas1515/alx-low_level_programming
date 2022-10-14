@@ -12,21 +12,20 @@ int main(void)
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	int count = 0;
 	int stop = sizeof(alpha);
-	int subc=0;
+	int subc = 0;
 
-	while (count < stop)
+	while (count <= stop + 1)
 	{
-		putchar(alpha[count]);
-		count++;
-
-		if (count == (stop + 1))
+		if (count < stop)
 		{
-			while (subc < 2)
-			{
-			putchar('\n');
-			subc++;
-			}
+			putchar(alpha[count]);
 		}
+		else
+		{
+			putchar('\n');
+		}
+
+		count++;
 	}
 	return (0);
 }
