@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+/**
+ * main - Entry Point
+ *
+ * Description: This program
+ * Return: returns 0
+ */
+
+int main(void)
+{
+	int dig1 = 0;
+	int dig2 = 0;
+	
+}
