@@ -12,7 +12,6 @@ int main(void)
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	int count = 0;
 	int stop = sizeof(alpha);
-	int subc = 0;
 
 	while (count <= stop + 1)
 	{
