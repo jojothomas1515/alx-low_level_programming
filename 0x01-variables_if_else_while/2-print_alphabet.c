@@ -17,7 +17,7 @@ int main(void)
 	{
 		putchar(alpha[count]);
 
-		if (count == stop - )
+		if (count == stop - 1)
 		{
 			putchar('\n');
 		}
