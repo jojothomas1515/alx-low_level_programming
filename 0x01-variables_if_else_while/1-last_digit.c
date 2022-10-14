@@ -34,8 +34,7 @@ int main(void)
 	}
 	else if (lt < 6)
 	{
-		printf("Last digit of %d is %d and"\
-		       " is less than 6 and not 0\n", n, lt);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lt);
 	}
 	return (0);
 }
