@@ -33,14 +33,9 @@ int main(void)
 				d = 0;
 				while (d < 10)
 				{
-					if (c == 0 && d == 0)
+					if (c == 0 || d == 0)
 					{
 						d = b + 1;
-						continue;
-					}
-					if (a == c && b == d)
-					{
-						d++;
 						continue;
 					}
 					b1 = a == 9;
