@@ -12,29 +12,28 @@ int main(void)
 	int first_num , last_num;
 
 	first_num = 0;
-	while ( first_num <= 99)
+	while (first_num <= 99)
 	{
 		last_num = first_num;
 		while (last_num <= 99)
 		{
-			if (first_num == last_num)
+			if (last_num != first_num)
 			{
-				last_num++;
-				continue;
-			}
-			putchar((first_num / 10) + '0');
-			putchar((first_num % 10) + '0');
-			putchar(' ');
-			putchar((last_num / 10) + '0');
-			putchar((last_num % 10) + '0');
-			if (first_num != 98 && last_num != 99)
-			{
-				putchar(',');
+				putchar((first_num / 10) + 48);
+				putchar((first_num % 10) + 48);
 				putchar(' ');
+				putchar((last_num / 10) + 48);
+				putchar((last_num % 10) + 48);
+
+				if (first_num != 98 || last_num != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			last_num++;
+			++last_num;
 		}
-		first_num++;
+		++first_num;
 	}
 	putchar('\n');
 	return (0);
