@@ -19,11 +19,11 @@ int main(void)
 		{
 			if (last_num != first_num)
 			{
-				putchar((first_num / 10) + 48);
-				putchar((first_num % 10) + 48);
+				putchar((first_num / 10) + '0');
+				putchar((first_num % 10) + '0');
 				putchar(' ');
-				putchar((last_num / 10) + 48);
-				putchar((last_num % 10) + 48);
+				putchar((last_num / 10) + '0');
+				putchar((last_num % 10) + '0');
 
 				if (first_num != 98 || last_num != 99)
 				{
