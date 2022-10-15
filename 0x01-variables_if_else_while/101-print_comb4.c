@@ -13,11 +13,13 @@ int main(void)
 	int dig2;
 	int dig3 = 1;
 	int dig4;
-	int dig5 =2;
+	int dig5;
+	int dig6 = 2;
 
 	while (dig1 < 8)
 	{
 		dig2 = dig3;
+		dig5 = dig6;
 
 		while (dig2 < 9)
 		{
@@ -43,6 +45,7 @@ int main(void)
 		}
 
 		dig3++;
+		dig6++;
 		dig1++;
 	}
 	putchar('\n');
