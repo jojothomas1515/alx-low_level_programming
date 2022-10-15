@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+/**
+ * main - Program entry point
+ *
+ * Description: Long description
+ * Return: 0 as success
+ */
+
+int main(void)
+{
+	int n1, n2, m1, m2 = 0;
+
+	while (n1 < 10)
+	{
+		m1 = n1;
+		m2 = n2 + 1;
+		while (n2 < 10)
+		{
+			while (m1 < 10)
+			{
+				while (m2 < 10)
+				{
+					putchar(n1 + '0');
+					putchar(n2 + '0');
+					putchar(' ');
+					putchar(m1 + '0');
+					putchar(m2 + '0');
+					if (n1 == n2 == m1 == m2 == 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					m2++;
+				}
+				m1++;
+			}
+			n2++;
+		}
+		n1++;
+	}
+	putchar('\n');
+	return (0);
+}
