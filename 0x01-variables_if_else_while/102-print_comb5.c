@@ -25,7 +25,7 @@ int main(void)
 				putchar((last_num / 10) + '0');
 				putchar((last_num % 10) + '0');
 
-				if (first_num != 98 || last_num != 99)
+				if (first_num != 98 && last_num != 99)
 				{
 					putchar(',');
 					putchar(' ');
