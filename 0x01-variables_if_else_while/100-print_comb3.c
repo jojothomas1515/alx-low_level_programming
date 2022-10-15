@@ -11,18 +11,14 @@ int main(void)
 {
 	int dig1 = 0;
 	int dig2;
+	int dig3 = 1;
 
 	while (dig1 < 9)
 	{
-		dig2 = 0;
+		dig2 = dig3;
 
 		while (dig2 < 10)
 		{
-			if (dig1 == 0 && dig2 == 0)
-			{
-				dig2++;
-				continue;
-			}
 			putchar(dig1 + '0');
 			putchar(dig2 + '0');
 
@@ -37,6 +33,7 @@ int main(void)
 			dig2++;
 		}
 
+		dig3++;
 		dig1++;
 	}
 	putchar('\n');
