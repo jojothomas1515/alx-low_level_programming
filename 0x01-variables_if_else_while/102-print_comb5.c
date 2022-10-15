@@ -9,15 +9,20 @@
 
 int main(void)
 {
-	int n1, n2, m1, m2 = 0;
-	int b, b2;
+	int n1 = 0;
+	int n2 = 0;
+	int b = 0;
+	int b2 = 0;
+	int m1 = 0;
+	int m2 = 0;
 
 	while (n1 < 10)
 	{
 		m1 = n1;
-		m2 = n2 + 1;
+		n2 = 0;
 		while (n2 < 10)
 		{
+			m2 = n2 + 1;
 			while (m1 < 10)
 			{
 				while (m2 < 10)
