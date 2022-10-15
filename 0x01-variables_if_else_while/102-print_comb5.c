@@ -10,6 +10,7 @@
 int main(void)
 {
 	int n1, n2, m1, m2 = 0;
+	int b, b2;
 
 	while (n1 < 10)
 	{
@@ -26,7 +27,9 @@ int main(void)
 					putchar(' ');
 					putchar(m1 + '0');
 					putchar(m2 + '0');
-					if (n1 == n2 == m1 == m2 == 9)
+					b = n1 == n2;
+					b2 = m1 == m2;
+					if (b && b2 && m1 == 9 && n1 == 9)
 					{
 						putchar(',');
 						putchar(' ');
