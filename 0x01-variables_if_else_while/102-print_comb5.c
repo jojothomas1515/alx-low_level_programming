@@ -36,6 +36,8 @@ int main(void)
 					b2 = m1 == m2;
 					if (b && b2 && m1 == 9 && n1 == 9)
 					{
+					}
+					{
 						putchar(',');
 						putchar(' ');
 					}
