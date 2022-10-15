@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int first_num , last_num;
+	int first_num, last_num;
 
 	first_num = 0;
 	while (first_num <= 99)
