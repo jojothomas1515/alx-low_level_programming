@@ -9,59 +9,32 @@
 
 int main(void)
 {
-	int a = 0;
-	int b = 0;
-	int c = 0;
-	int d = 0;
-	int c1 = 0;
-	int d1 = 0;
-	int b1 = 0;
-	int b2 = 0;
-	int b3 = 0;
-	int b4 = 0;
-	a = 0;
-	while (a < 10)
+	int first_num , last_num;
+
+	first_num = 0;
+	while ( first_num < 99)
 	{
-		b = 0;
-		c1 = a;
-		while (b < 10)
+		last_num = first_num;
+		while (last_num < 100)
 		{
-			d1 = b + 1;
-			c = c1;
-			while (c < 10)
+			if (first_num == last_num)
 			{
-				d = d1;
-				while (d < 10)
-				{
-					if (c == 0 && d == 0)
-					{
-						d = b + 1;
-						continue;
-					}
-					b1 = a == 9;
-					b2 = b == 8;
-					b3 = c == 9;
-					b4 = d == 9;
-					putchar(a + '0');
-					putchar(b + '0');
-					putchar(' ');
-					putchar(c + '0');
-					putchar(d + '0');
-					if (b1 && b2 && b3 && b4)
-					{
-					}
-					else
-					{
-						putchar(',');
-						putchar(' ');
-					}
-					d++;
-				}
-				c++;
+				last_num++;
+				continue;
 			}
-			b++;
+			putchar((first_num / 10) + '0');
+			putchar((first_num % 10) + '0');
+			putchar(' ');
+			putchar((last_num / 10) + '0');
+			putchar((last_num % 10) + '0');
+			if (first_num != 98 && last_num != 99)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			last_num++;
 		}
-		a++;
+		first_num++;
 	}
 	putchar('\n');
 	return (0);
