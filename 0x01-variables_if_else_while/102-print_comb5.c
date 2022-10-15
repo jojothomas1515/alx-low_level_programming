@@ -33,6 +33,11 @@ int main(void)
 				d = 0;
 				while (d < 10)
 				{
+					if (c == 0 && d == 0)
+					{
+						d++;
+						continue;
+					}
 					b1 = a == 9;
 					b2 = b == 8;
 					b3 = c == 9;
