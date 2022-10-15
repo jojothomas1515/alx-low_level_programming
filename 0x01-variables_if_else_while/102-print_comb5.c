@@ -13,7 +13,7 @@ int main(void)
 	int b = 0;
 	int c = 0;
 	int d = 0;
-	int c1 = 0;
+/*	int c1 = 0;*/
 /*	int d1 = 0; */
 	int b1 = 0;
 	int b2 = 0;
