@@ -26,7 +26,10 @@ int main(void)
 			putchar(dig1 + '0');
 			putchar(dig2 + '0');
 
-			if (dig1 != 8 && dig2 != 9)
+			if (dig1 == 8 && dig2 == 9)
+			{
+			}
+			else
 			{
 				putchar(',');
 				putchar(' ');
