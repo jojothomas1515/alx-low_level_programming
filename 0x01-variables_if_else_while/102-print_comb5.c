@@ -38,6 +38,11 @@ int main(void)
 						d = b + 1;
 						continue;
 					}
+					if (a == c && b == d)
+					{
+						d++;
+						continue;
+					}
 					b1 = a == 9;
 					b2 = b == 8;
 					b3 = c == 9;
