@@ -11,7 +11,7 @@ int main(void)
 {
 	int first_num, last_num;
 
-	first_num = 2;
+	first_num = 0;
 	while (first_num <= 99)
 	{
 		last_num = first_num;
@@ -31,9 +31,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			++last_num;
+			last_num++;
 		}
-		++first_num;
+		first_num++;
 	}
 	putchar('\n');
 	return (0);
