@@ -14,7 +14,7 @@ int main(void)
 	int c = 0;
 	int d = 0;
 	int c1 = 0;
-	int d1 = 0;
+//	int d1 = 0;
 	int b1 = 0;
 	int b2 = 0;
 	int b3 = 0;
@@ -26,7 +26,7 @@ int main(void)
 		c1 = a;
 		while (b < 10)
 		{
-			d1 = b + 1;
+//			d1 = b + 1;
 			c = c1;
 			while (c < 10)
 			{
