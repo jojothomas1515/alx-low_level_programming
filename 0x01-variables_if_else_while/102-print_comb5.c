@@ -9,45 +9,54 @@
 
 int main(void)
 {
-	int n1 = 0;
-	int n2 = 0;
+	int a = 0;
 	int b = 0;
+	int c = 0;
+	int d = 0;
+	int c1 = 0;
+	int d1 = 0;
+	int b1 = 0;
 	int b2 = 0;
-	int m1 = 0;
-	int m2 = 0;
-
-	while (n1 < 10)
+	int b3 = 0;
+	int b4 = 0;
+	a = 0;
+	while (a < 10)
 	{
-		m1 = n1;
-		n2 = 0;
-		while (n2 < 10)
+		b = 0;
+		c1 = a;
+		while (b < 10)
 		{
-			m2 = n2 + 1;
-			while (m1 < 10)
+			d1 = b + 1;
+			c = c1;
+			while (c < 10)
 			{
-				while (m2 < 10)
+				d = d1;
+				while (d < 10)
 				{
-					putchar(n1 + '0');
-					putchar(n2 + '0');
+					b1 = a == 9;
+					b2 = b == 8;
+					b3 = c == 9;
+					b4 = d == 9;
+					putchar(a + '0');
+					putchar(b + '0');
 					putchar(' ');
-					putchar(m1 + '0');
-					putchar(m2 + '0');
-					b = n1 == n2;
-					b2 = m1 == m2;
-					if (b && b2 && m1 == 9 && n1 == 9)
+					putchar(c + '0');
+					putchar(d + '0');
+					if (b1 && b2 && b3 && b4)
 					{
 					}
+					else
 					{
 						putchar(',');
 						putchar(' ');
 					}
-					m2++;
+					d++;
 				}
-				m1++;
+				c++;
 			}
-			n2++;
+			b++;
 		}
-		n1++;
+		a++;
 	}
 	putchar('\n');
 	return (0);
