@@ -13,8 +13,8 @@ int main(void)
 	int b = 0;
 	int c = 0;
 	int d = 0;
-/*	int c1 = 0;*/
-/*	int d1 = 0; */
+	int c1 = 0;
+	int d1 = 0;
 	int b1 = 0;
 	int b2 = 0;
 	int b3 = 0;
@@ -23,17 +23,17 @@ int main(void)
 	while (a < 10)
 	{
 		b = 0;
-/*		c1 = a; */
+		c1 = a;
 		while (b < 10)
 		{
-/*			d1 = b + 1; */
-			c = 0;
+			d1 = b + 1;
+			c = c1;
 			while (c < 10)
 			{
-				d = 0;
+				d = d1;
 				while (d < 10)
 				{
-					if (c == 0 || d == 0)
+					if (c == 0 && d == 0)
 					{
 						d = b + 1;
 						continue;
