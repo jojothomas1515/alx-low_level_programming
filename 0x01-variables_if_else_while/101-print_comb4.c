@@ -20,7 +20,6 @@ int main(void)
 	{
 		dig2 = dig3;
 		dig5 = dig6;
-
 		while (dig2 < 9)
 		{
 			dig4 = dig5;
@@ -29,7 +28,6 @@ int main(void)
 				putchar(dig1 + '0');
 				putchar(dig2 + '0');
 				putchar(dig4 + '0');
-
 				if (dig1 == 7 && dig2 == 8 && dig4 == 9)
 				{
 				}
@@ -43,12 +41,10 @@ int main(void)
 			dig5++;
 			dig2++;
 		}
-
 		dig3++;
 		dig6++;
 		dig1++;
 	}
 	putchar('\n');
-
 	return (0);
 }
