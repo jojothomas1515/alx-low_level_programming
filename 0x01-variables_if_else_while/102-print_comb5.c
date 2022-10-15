@@ -12,10 +12,10 @@ int main(void)
 	int first_num , last_num;
 
 	first_num = 0;
-	while ( first_num < 99)
+	while ( first_num <= 99)
 	{
 		last_num = first_num;
-		while (last_num < 100)
+		while (last_num <= 99)
 		{
 			if (first_num == last_num)
 			{
