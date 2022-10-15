@@ -35,7 +35,7 @@ int main(void)
 				{
 					if (c == 0 && d == 0)
 					{
-						d++;
+						d = b + 1;
 						continue;
 					}
 					b1 = a == 9;
