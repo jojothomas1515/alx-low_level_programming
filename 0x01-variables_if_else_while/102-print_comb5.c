@@ -23,11 +23,11 @@ int main(void)
 	while (a < 10)
 	{
 		b = 0;
-		c1 = a;
+/*		c1 = a; */
 		while (b < 10)
 		{
 /*			d1 = b + 1; */
-			c = c1;
+			c = 0;
 			while (c < 10)
 			{
 				d = 0;
