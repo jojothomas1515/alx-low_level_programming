@@ -11,7 +11,7 @@ int main(void)
 {
 	int first_num, last_num;
 
-	first_num = 0;
+	first_num = 2;
 	while (first_num <= 99)
 	{
 		last_num = first_num;
