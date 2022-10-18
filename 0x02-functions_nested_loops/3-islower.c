@@ -2,7 +2,7 @@
 
 /**
  * _islower - check of character is lower
- *
+ * @c: character argument to be checked
  * description: long description
  * Return: 0
  */
