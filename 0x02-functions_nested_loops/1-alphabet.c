@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabets - print the english alphabets
+ * print_alphabet - print the english alphabets
  *
  * Description: this program prints out the all lower alphabets
  */
