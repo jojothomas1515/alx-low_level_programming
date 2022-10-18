@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "main.h"
+
+int main(void)
+{
+	print_name();
+	return (0);
+}
+
+void print_name()
+{
+	char i = "j";
+}
