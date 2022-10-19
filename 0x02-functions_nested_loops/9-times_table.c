@@ -31,9 +31,9 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			_putchar('\n');
 			n++;
 		}
+		_putchar('\n');
 		m++;
 	}
 }
