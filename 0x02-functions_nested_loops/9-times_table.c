@@ -20,10 +20,14 @@ void times_table(void)
 			int fd = num / 10;
 			int ld = num % 10;
 
-			_putchar(fd + 48);
-
-			if ((fd == 0) && (ld == 0))
+			if (fd != 0)
 			{
+				_putchar(fd + 48);
+			}
+
+			if (fd == 0)
+			{
+				_putchar(ld + 48);
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
