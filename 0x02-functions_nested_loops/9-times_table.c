@@ -23,7 +23,7 @@ void times_table(void)
 			_putchar(fd + 48);
 			if (ld != 0)
 			{
-				_purchar(ld + 48);
+				_putchar(ld + 48);
 			}
 
 			if (n != 9)
