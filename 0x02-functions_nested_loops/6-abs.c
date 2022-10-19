@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _abs : print the absolute value
+ * _abs - print the absolute value
+ * @num: the input number
  *
  * Description: this is a long description
  * Return: it void so no return value
