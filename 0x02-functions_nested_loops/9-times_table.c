@@ -18,7 +18,7 @@ void times_table(void)
 		{
 			int num = m * n;
 			int fd = num / 10;
-			int ld = num / 10;
+			int ld = num % 10;
 
 			_putchar(fd + 48);
 			if (ld != 0)
