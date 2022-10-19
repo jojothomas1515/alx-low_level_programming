@@ -22,16 +22,16 @@ void times_table(void)
 
 			_putchar(fd + 48);
 
-			if (n != 0)
+			if ((fd == 0) && (ld == 0))
 			{
-				_putchar(ld + 48);
 				_putchar(',');
+				_putchar(' ');
 				_putchar(' ');
 			}
 			else
 			{
+				_putchar(ld + 48);
 				_putchar(',');
-				_putchar(' ');
 				_putchar(' ');
 			}
 			n++;
