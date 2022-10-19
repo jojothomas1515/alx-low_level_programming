@@ -29,11 +29,12 @@ void times_table(void)
 				_putchar(' ');
 			}
 			_putchar(ld + 48);
+
 			if (n != 9)
-				{
+			{
 					_putchar(',');
 					_putchar(' ');
-				}
+			}
 			n++;
 		}
 		_putchar('\n');
