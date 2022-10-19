@@ -21,14 +21,17 @@ void times_table(void)
 			int ld = num % 10;
 
 			_putchar(fd + 48);
-			if (ld != 0)
+
+			if (n != 0)
 			{
 				_putchar(ld + 48);
+				_putchar(',');
+				_putchar(' ');
 			}
-
-			if (n != 9)
+			else
 			{
 				_putchar(',');
+				_putchar(' ');
 				_putchar(' ');
 			}
 			n++;
