@@ -1,9 +1,0 @@
-#include "main.h"
-
-int main(void)
-{
-	int result = _abs(-6);
-	_putchar(result);
-	_putchar('\n');
-	return (0);
-}
