@@ -28,15 +28,21 @@ void times_table(void)
 			if (fd == 0)
 			{
 				_putchar(ld + 48);
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
+				if (n != 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 			}
 			else
 			{
 				_putchar(ld + 48);
-				_putchar(',');
-				_putchar(' ');
+				if (n != 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
 			n++;
 		}
