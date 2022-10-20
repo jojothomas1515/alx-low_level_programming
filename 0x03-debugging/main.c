@@ -6,9 +6,10 @@ int main(void)
 {
 	int day, month, year;
 
-	day = convert_day(month, day);
 	month = 2;
+	day = 29;
 	year = 2000;
+	day = convert_day(month, day);
 	print_remaining_days(month, day, year);
 	return (0);
 }
