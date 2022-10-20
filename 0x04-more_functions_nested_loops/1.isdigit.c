@@ -1,9 +1,9 @@
 /**
  * _isdigit - checks if the character is a digit
- * @param c
+ * @c: this is the arg
  *
  * Description: done
- * @return: 0 for false or 1 for true
+ * Return: 0 for false or 1 for true
  */
 
 int _isdigit(int c)
