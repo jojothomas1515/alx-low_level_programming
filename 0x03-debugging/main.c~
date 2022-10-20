@@ -1,0 +1,12 @@
+#include "main.h"
+
+int main(void)
+{
+	int day, month, year;
+
+	day = 13;
+	month = 1;
+	year = 2004;
+	print_remaining_days(month, day, year);
+	return (0);
+}
