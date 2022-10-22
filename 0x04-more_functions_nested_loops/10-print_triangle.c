@@ -11,7 +11,6 @@ void print_triangle(int size)
 	int i, j;
 	if (size <= 0)
 	{
-		_putchar('$');
 		_putchar('\n');
 	}
 	else
@@ -27,7 +26,6 @@ void print_triangle(int size)
 			{
 				_putchar('#');
 			}
-			_putchar('$');
 			_putchar('\n');
 		}
 	}
