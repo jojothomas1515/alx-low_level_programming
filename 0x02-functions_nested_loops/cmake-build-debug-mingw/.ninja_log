@@ -1,0 +1,5 @@
+# ninja log v5
+8	111	6882512799888230	CMakeFiles/alx.dir/main.c.obj	efc58cf4f434222b
+8	428	6882512063087396	CMakeFiles/alx.dir/_putchar.c.obj	8fb9eac0dd325812
+5	142	6882525368279766	CMakeFiles/alx.dir/100-times_table.c.obj	45ecef2935e81cdc
+143	448	6882525370498489	alx.exe	148f6cdacf8c042
