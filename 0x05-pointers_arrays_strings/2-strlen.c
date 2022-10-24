@@ -3,7 +3,6 @@
 /**
  * _strlen - calculate the length of a string
  * @s: string variable
- *
  * Return: 0
  */
 
