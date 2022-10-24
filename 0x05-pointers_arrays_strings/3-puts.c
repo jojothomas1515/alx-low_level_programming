@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * _put - prints a string and then a new line
+ * _puts - prints a string and then a new line
  * @str: the string variable
  * Return: nothing
  */
