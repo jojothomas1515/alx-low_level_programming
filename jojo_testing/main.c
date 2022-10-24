@@ -4,10 +4,13 @@
 
 #include "main.h"
 
-int main(void)
-{
-   char *s = "jojo t";
-
+int main(void) {
+	char *s = "jojotjo asjkajs sajkajs";
+	while (*s)
+	{
+		printf("%c", *s);
+		s++;
+	}
 }
 
 
