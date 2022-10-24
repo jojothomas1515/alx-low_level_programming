@@ -56,7 +56,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -94,7 +95,15 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3
 			]
 		}
 	],
@@ -111,6 +120,17 @@
 			"compileGroupIndex" : 0,
 			"path" : "_putchar.c",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x05-pointers_arrays_strings/main.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
