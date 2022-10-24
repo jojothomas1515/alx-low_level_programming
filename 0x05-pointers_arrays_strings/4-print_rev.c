@@ -8,7 +8,7 @@
 void print_rev(char *s)
 {
 	char newline = '\n';
-	int len = strrev(s);
+	int len = strlen(s);
 	int i;
 
 	for (i = len; i > 0; i++)
