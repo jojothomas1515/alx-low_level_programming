@@ -1,4 +1,3 @@
-#include "main.h"
 #include <unistd.h>
 /**
  * print_rev - print the rev of the string
@@ -8,7 +7,7 @@
 void print_rev(char *s)
 {
 	char newline = '\n';
-	int len = _strlen(s);
+	int len = strrev(s);
 	int i;
 
 	for (i = len; i > 0; i++)
