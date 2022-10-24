@@ -1,5 +1,4 @@
-#include <string.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_rev - print the rev of the string
@@ -8,5 +7,11 @@
 
 void print_rev(char *s)
 {
-	printf("%s\n", strrev(s));
+	int len = _strlen(s);
+
+	while (len != 0)
+	{
+		_putchar(s[len]);
+		len--;
+	}
 }
