@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <stdio.h>
+#include <string.h>
 /**
  * print_rev - print the rev of the string
  * @s: the string variable to be evaluated
