@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/alx-low_level_programming/jojo_testing/_putchar.c
+unistd.h
+-
+
+/alx-low_level_programming/jojo_testing/main.c
+main.h
+/alx-low_level_programming/jojo_testing/main.h
+
+/alx-low_level_programming/jojo_testing/main.h
+stdio.h
+-
+
