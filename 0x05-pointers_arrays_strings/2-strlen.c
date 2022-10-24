@@ -2,7 +2,7 @@
 
 /**
  * _strlen - calculate the length of a string
- * @param @s: string variable
+ * @s: string variable
  *
  * Return: 0
  */
