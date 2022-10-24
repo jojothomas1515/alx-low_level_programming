@@ -1,1 +1,0 @@
-/usr/bin/cc    CMakeFiles/bin.dir/main.c.o CMakeFiles/bin.dir/_putchar.c.o  -o bin 

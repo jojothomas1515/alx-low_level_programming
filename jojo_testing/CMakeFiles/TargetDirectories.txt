@@ -1,3 +1,0 @@
-/alx-low_level_programming/jojo_testing/CMakeFiles/rebuild_cache.dir
-/alx-low_level_programming/jojo_testing/CMakeFiles/edit_cache.dir
-/alx-low_level_programming/jojo_testing/CMakeFiles/bin.dir

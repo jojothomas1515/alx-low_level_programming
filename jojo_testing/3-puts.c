@@ -6,8 +6,7 @@
  * Return: nothing
  */
 
-void _puts(char *str)
-{
+void _puts(char *str) {
 	char newline = '\n';
 
 	while (*str != '\0')

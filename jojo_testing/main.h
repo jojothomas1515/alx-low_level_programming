@@ -8,5 +8,6 @@
 #include <stdio.h>
 
 void _putchar(char);
+void _puts(char*);
 
 #endif //JOJO_TEST

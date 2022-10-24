@@ -6,12 +6,8 @@
 
 int main(void) {
 	char *s = "jojotjo asjkajs sajkajs";
-	while (*s)
-	{
-		puts()
-		printf("%c", *s);
-		s++;
-	}
+	_puts(s);
+	return (0);
 }
 
 
