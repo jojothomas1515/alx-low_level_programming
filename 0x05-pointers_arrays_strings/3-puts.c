@@ -3,6 +3,7 @@
 /**
  * _put - prints a string and then a new line
  * @str: the string variable
+ * Return: nothing
  */
 
 void _puts(char *str)
@@ -14,5 +15,5 @@ void _puts(char *str)
 		write(1, str, 1);
 		str++;
 	}
-	write(1,&newline,1);
+	write(1, &newline, 1);
 }
