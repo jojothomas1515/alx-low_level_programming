@@ -9,6 +9,7 @@ int _strlen(char*);
 void _puts(char *str);
 void print_rev(char *s);
 void _putchar(char c);
+void rev_string(char *s);
 
 
 #endif /* JOJO_TESTING_MAIN_H */
