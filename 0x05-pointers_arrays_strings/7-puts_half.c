@@ -11,6 +11,7 @@ void puts_half(char *str)
 
 	/* to get the length of a string */
 	for (len = 0; str[len] != '\0'; len++);
+
 	len = len - 1;
 	half_len = len / 2;
 
