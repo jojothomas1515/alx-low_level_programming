@@ -67,6 +67,12 @@ build CMakeFiles/bin.dir/3-puts.c.obj: C_COMPILER__bin_Debug C$:/Users/Jojo$ Tho
   OBJECT_DIR = CMakeFiles\bin.dir
   OBJECT_FILE_DIR = CMakeFiles\bin.dir
 
+build CMakeFiles/bin.dir/4-print_rev.c.obj: C_COMPILER__bin_Debug C$:/Users/Jojo$ Thomas/CLionProjects/alx-low_level_programming/jojo_testing/4-print_rev.c || cmake_object_order_depends_target_bin
+  DEP_FILE = CMakeFiles\bin.dir\4-print_rev.c.obj.d
+  FLAGS = -g -std=gnu90
+  OBJECT_DIR = CMakeFiles\bin.dir
+  OBJECT_FILE_DIR = CMakeFiles\bin.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bin
@@ -75,7 +81,7 @@ build CMakeFiles/bin.dir/3-puts.c.obj: C_COMPILER__bin_Debug C$:/Users/Jojo$ Tho
 #############################################
 # Link the executable bin.exe
 
-build bin.exe: C_EXECUTABLE_LINKER__bin_Debug CMakeFiles/bin.dir/main.c.obj CMakeFiles/bin.dir/_putchar.c.obj CMakeFiles/bin.dir/3-puts.c.obj
+build bin.exe: C_EXECUTABLE_LINKER__bin_Debug CMakeFiles/bin.dir/main.c.obj CMakeFiles/bin.dir/_putchar.c.obj CMakeFiles/bin.dir/3-puts.c.obj CMakeFiles/bin.dir/4-print_rev.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bin.dir

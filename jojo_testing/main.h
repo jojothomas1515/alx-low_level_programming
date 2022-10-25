@@ -9,5 +9,6 @@
 
 void _putchar(char);
 void _puts(char*);
+void print_rev(char *s);
 
 #endif //JOJO_TEST

@@ -5,8 +5,8 @@
 #include "main.h"
 
 int main(void) {
-	char *s = "jojotjo asjkajs sajkajs";
-	_puts(s);
+	char *s = "Hello jojo how are you";
+	print_rev(s);
 	return (0);
 }
 
