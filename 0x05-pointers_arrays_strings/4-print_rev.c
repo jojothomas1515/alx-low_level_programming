@@ -21,5 +21,4 @@ void print_rev(char *s)
 		_putchar(*(s + count - 2));
 		count--;
 	}
-	_putchar('\n');
 }
