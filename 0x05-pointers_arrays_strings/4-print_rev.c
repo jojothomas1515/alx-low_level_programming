@@ -15,7 +15,7 @@ void print_rev(char *s)
 	}
 	count++;
 
-	while (!(count < -1))
+	while (count)
 	{
 		_putchar(*(s + count));
 		count--;
