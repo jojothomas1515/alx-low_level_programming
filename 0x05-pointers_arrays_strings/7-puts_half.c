@@ -5,7 +5,8 @@
  * @str: string to be printed
  */
 
-void puts_half(char *str) {
+void puts_half(char *str)
+{
 	int len, half_len, i;
 
 	/* to get the length of a string */
