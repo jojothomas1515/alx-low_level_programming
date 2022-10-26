@@ -9,10 +9,19 @@ void print_array(int *, int);
  */
 int main(void)
 {
-	int array[5] = {
-		-198, 298, 402, -1024, 98
-	};
+	char *s = "301";
+	int count = 0, i = 0;
+	while (*s != '\0')
+	{
+		count++;
+		s++;
+	}
+	s = s - count;
 
-	print_array(array, 5);
+	while (i < count)
+	{
+
+	}
+	printf("%d", count);
 	return (0);
 }
