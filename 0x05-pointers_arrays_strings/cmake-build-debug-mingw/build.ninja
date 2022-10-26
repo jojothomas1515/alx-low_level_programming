@@ -79,6 +79,12 @@ build CMakeFiles/alx.dir/3-puts.c.obj: C_COMPILER__alx_Debug C$:/Users/Jojo$ Tho
   OBJECT_DIR = CMakeFiles\alx.dir
   OBJECT_FILE_DIR = CMakeFiles\alx.dir
 
+build CMakeFiles/alx.dir/8-print_array.c.obj: C_COMPILER__alx_Debug C$:/Users/Jojo$ Thomas/CLionProjects/alx-low_level_programming/0x05-pointers_arrays_strings/8-print_array.c || cmake_object_order_depends_target_alx
+  DEP_FILE = CMakeFiles\alx.dir\8-print_array.c.obj.d
+  FLAGS = -g -std=gnu90
+  OBJECT_DIR = CMakeFiles\alx.dir
+  OBJECT_FILE_DIR = CMakeFiles\alx.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target alx
@@ -87,7 +93,7 @@ build CMakeFiles/alx.dir/3-puts.c.obj: C_COMPILER__alx_Debug C$:/Users/Jojo$ Tho
 #############################################
 # Link the executable alx.exe
 
-build alx.exe: C_EXECUTABLE_LINKER__alx_Debug CMakeFiles/alx.dir/main.c.obj CMakeFiles/alx.dir/5-rev_string.c.obj CMakeFiles/alx.dir/_putchar.c.obj CMakeFiles/alx.dir/2-strlen.c.obj CMakeFiles/alx.dir/3-puts.c.obj
+build alx.exe: C_EXECUTABLE_LINKER__alx_Debug CMakeFiles/alx.dir/main.c.obj CMakeFiles/alx.dir/5-rev_string.c.obj CMakeFiles/alx.dir/_putchar.c.obj CMakeFiles/alx.dir/2-strlen.c.obj CMakeFiles/alx.dir/3-puts.c.obj CMakeFiles/alx.dir/8-print_array.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\alx.dir
