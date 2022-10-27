@@ -1,7 +1,7 @@
 /**
  * reverse_array - reverse the array of a int
- * @param a
- * @param n
+ * @a: pointer to the array
+ * @n: size of the array
  * Return: nothing
  */
 
