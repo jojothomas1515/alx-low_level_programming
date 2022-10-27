@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncpy - concat string  by an number of bytes
  * @dest: target or destination
@@ -11,13 +10,15 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
-		*dest = *src;
-		if (*src == '\0')
-			return (dest);
-		src++;
-		dest++;
+		dest[i] = src[i];
+	}
+
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
 	}
 	return (dest);
 }
