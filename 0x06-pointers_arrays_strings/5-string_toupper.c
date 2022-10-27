@@ -16,8 +16,7 @@ char *string_toupper(char *a)
 		{
 			if (c == a[i])
 			{
-				c = c - 'a';
-				a[i] = 65 + c;
+				a[i] = a[i] + 32;
 			}
 			c++;
 		}
