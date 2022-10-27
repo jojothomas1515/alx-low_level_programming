@@ -1,3 +1,10 @@
+/**
+ * _strcat - concatenate to strings
+ * @dest: destination string
+ * @src: src string
+ * Return: pointer to destination string
+ */
+
 char *_strcat(char *dest, char *src)
 {
 	int c, j;
