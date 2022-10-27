@@ -6,15 +6,15 @@
  * @n: bytes
  * Returns a pointer to destination
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
 	for(i = 0; src[i] != '\0' && i < n; i++)
 	{
-		if (src[i] == NULL && i < n)
+		if (i < n)
 		{
-			dest[i] = " ";
+			dest[i] = ' ';
 		}
 
 		dest[i] = src[i];
