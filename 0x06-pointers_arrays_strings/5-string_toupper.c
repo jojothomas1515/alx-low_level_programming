@@ -12,11 +12,12 @@ char *string_toupper(char *a)
 	{
 		c = 'a';
 
-		while (c < 'z')
+		while (c <= 'z')
 		{
 			if (c == a[i])
 			{
-				a[i] = a[i] + 32;
+				c = c - 'a';
+				a[i] = 65 + c;
 			}
 			c++;
 		}
