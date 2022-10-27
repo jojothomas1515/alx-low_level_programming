@@ -2,7 +2,9 @@
  * reverse_array - reverse the array of a int
  * @param a
  * @param n
+ * Return: nothing
  */
+
 void reverse_array(int *a, int n)
 {
 	int i = 0, temp;
@@ -16,5 +18,4 @@ void reverse_array(int *a, int n)
 		i++;
 		n--;
 	}
-
 }
