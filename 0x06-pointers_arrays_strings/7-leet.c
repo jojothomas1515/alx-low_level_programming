@@ -2,8 +2,7 @@
  * leet - a function that encodes a string into 1337
  *
  * @s: string input
- *
- * Return: @s
+ * Return: s
 */
 
 char *leet(char *s)
