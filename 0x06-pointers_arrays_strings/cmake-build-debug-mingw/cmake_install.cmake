@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x05-pointers_arrays_strings
+# Install script for directory: C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x06-pointers_arrays_strings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/jojo_project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x05-pointers_arrays_strings/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x06-pointers_arrays_strings/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

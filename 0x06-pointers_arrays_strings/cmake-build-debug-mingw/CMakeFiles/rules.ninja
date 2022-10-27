@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: 0x05-pointer_array_strings
+# Project: jojo_project
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Jojo Thomas\CLionProjects\alx-low_level_programming\0x05-pointers_arrays_strings" -B"C:\Users\Jojo Thomas\CLionProjects\alx-low_level_programming\0x05-pointers_arrays_strings\cmake-build-debug-mingw"
+  command = "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Jojo Thomas\CLionProjects\alx-low_level_programming\0x06-pointers_arrays_strings" -B"C:\Users\Jojo Thomas\CLionProjects\alx-low_level_programming\0x06-pointers_arrays_strings\cmake-build-debug-mingw"
   description = Re-running CMake...
   generator = 1
 

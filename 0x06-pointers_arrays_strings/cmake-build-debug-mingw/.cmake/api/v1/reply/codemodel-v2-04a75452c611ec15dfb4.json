@@ -23,7 +23,7 @@
 					[
 						0
 					],
-					"name" : "0x05-pointer_array_strings",
+					"name" : "jojo_project",
 					"targetIndexes" : 
 					[
 						0
@@ -35,7 +35,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "alx::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-alx-Debug-a24d30ab340a482afb08.json",
+					"jsonFile" : "target-alx-Debug-3bb7167986aee6524f0a.json",
 					"name" : "alx",
 					"projectIndex" : 0
 				}
@@ -45,8 +45,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x05-pointers_arrays_strings/cmake-build-debug-mingw",
-		"source" : "C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x05-pointers_arrays_strings"
+		"build" : "C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x06-pointers_arrays_strings/cmake-build-debug-mingw",
+		"source" : "C:/Users/Jojo Thomas/CLionProjects/alx-low_level_programming/0x06-pointers_arrays_strings"
 	},
 	"version" : 
 	{
