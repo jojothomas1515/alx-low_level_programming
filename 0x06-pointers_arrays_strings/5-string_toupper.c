@@ -19,7 +19,7 @@ char *string_toupper(char *a)
 /*
 				c = c - 'a';
 */
-				a[i] = a[i] + 31;
+				a[i] = a[i] + 32;
 			}
 			c++;
 		}
