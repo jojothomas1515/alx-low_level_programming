@@ -8,34 +8,22 @@
  */
 int main(void)
 {
-	char s1[98];
-	char *ptr;
-	int i;
+	char arr[12] = "jojo tsklsd", arr2[32] = "jojo thomas";
 
-	for (i = 0; i < 98 - 1; i++)
+	while (1)
 	{
-		s1[i] = '*';
-	}
-	s1[i] = '\0';
-	printf("%s\n", s1);
-	ptr = _strncpy(s1, "First, solve the problem. Then, write the code\n", 5);
-	printf("%s\n", s1);
-	printf("%s\n", ptr);
-	ptr = _strncpy(s1, "First, solve the problem. Then, write the code\n", 90);
-	printf("%s", s1);
-	printf("%s", ptr);
-	for (i = 0; i < 98; i++)
-	{
-		if (i % 10)
+		if (*arr != *arr2)
 		{
-			printf(" ");
+			printf("%p\n", *arr - *arr2 );
+			return 1;
 		}
-		if (!(i % 10) && i)
+		if(*arr == '\0')
 		{
-			printf("\n");
+			return 0;
 		}
-		printf("0x%02x", s1[i]);
+
+		arr++;
+		arr2++;
+
 	}
-	printf("\n");
-	return (0);
 }
