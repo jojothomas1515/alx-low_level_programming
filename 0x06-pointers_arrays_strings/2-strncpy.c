@@ -4,7 +4,7 @@
  * @dest: target or destination
  * @src: source
  * @n: bytes
- * Returns a pointer to destination
+ * Return: a pointer to destination
  */
 char *_strncpy (char *dest, char *src, int n)
 {
