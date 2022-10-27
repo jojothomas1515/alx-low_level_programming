@@ -5,8 +5,9 @@
  */
 void reverse_array(int *a, int n)
 {
-	int i, temp;
+	int i = 0, temp;
 
+	n--;
 	while (i <= n)
 	{
 		temp = a[i];
