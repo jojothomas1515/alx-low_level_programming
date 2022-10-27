@@ -13,14 +13,11 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		if (src[i] != '\0')
-		{
-			dest[i] = src[i];
-		} else
-		{
-			dest[i] = '\0';
-		}
-
+		*dest = *src;
+		if (*dest == '\0')
+			return (dest);
+		src++;
+		dest++;
 	}
 	return (dest);
 }
