@@ -61,14 +61,8 @@ build CMakeFiles/alx.dir/0-strcat.c.obj: C_COMPILER__alx_Debug C$:/Users/Jojo$ T
   OBJECT_DIR = CMakeFiles\alx.dir
   OBJECT_FILE_DIR = CMakeFiles\alx.dir
 
-build CMakeFiles/alx.dir/1-strncat.c.obj: C_COMPILER__alx_Debug C$:/Users/Jojo$ Thomas/CLionProjects/alx-low_level_programming/0x06-pointers_arrays_strings/1-strncat.c || cmake_object_order_depends_target_alx
-  DEP_FILE = CMakeFiles\alx.dir\1-strncat.c.obj.d
-  FLAGS = -g -std=gnu90
-  OBJECT_DIR = CMakeFiles\alx.dir
-  OBJECT_FILE_DIR = CMakeFiles\alx.dir
-
-build CMakeFiles/alx.dir/2-strncpy.c.obj: C_COMPILER__alx_Debug C$:/Users/Jojo$ Thomas/CLionProjects/alx-low_level_programming/0x06-pointers_arrays_strings/2-strncpy.c || cmake_object_order_depends_target_alx
-  DEP_FILE = CMakeFiles\alx.dir\2-strncpy.c.obj.d
+build CMakeFiles/alx.dir/5-string_toupper.c.obj: C_COMPILER__alx_Debug C$:/Users/Jojo$ Thomas/CLionProjects/alx-low_level_programming/0x06-pointers_arrays_strings/5-string_toupper.c || cmake_object_order_depends_target_alx
+  DEP_FILE = CMakeFiles\alx.dir\5-string_toupper.c.obj.d
   FLAGS = -g -std=gnu90
   OBJECT_DIR = CMakeFiles\alx.dir
   OBJECT_FILE_DIR = CMakeFiles\alx.dir
@@ -81,7 +75,7 @@ build CMakeFiles/alx.dir/2-strncpy.c.obj: C_COMPILER__alx_Debug C$:/Users/Jojo$ 
 #############################################
 # Link the executable alx.exe
 
-build alx.exe: C_EXECUTABLE_LINKER__alx_Debug CMakeFiles/alx.dir/main.c.obj CMakeFiles/alx.dir/0-strcat.c.obj CMakeFiles/alx.dir/1-strncat.c.obj CMakeFiles/alx.dir/2-strncpy.c.obj
+build alx.exe: C_EXECUTABLE_LINKER__alx_Debug CMakeFiles/alx.dir/main.c.obj CMakeFiles/alx.dir/0-strcat.c.obj CMakeFiles/alx.dir/5-string_toupper.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\alx.dir

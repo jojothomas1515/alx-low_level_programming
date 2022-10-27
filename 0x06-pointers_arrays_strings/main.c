@@ -8,22 +8,11 @@
  */
 int main(void)
 {
-	char arr[12] = "jojo tsklsd", arr2[32] = "jojo thomas";
+	char arr2[32] = "jojo thomas";
+	char *ptr;
+	ptr = string_toupper(arr2);
 
-	while (1)
-	{
-		if (*arr != *arr2)
-		{
-			printf("%p\n", *arr - *arr2 );
-			return 1;
-		}
-		if(*arr == '\0')
-		{
-			return 0;
-		}
+	printf("%s\n", ptr);
+	printf("%s\n", arr2);
 
-		arr++;
-		arr2++;
-
-	}
 }

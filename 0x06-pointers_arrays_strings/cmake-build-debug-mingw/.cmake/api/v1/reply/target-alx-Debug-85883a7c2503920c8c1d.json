@@ -57,8 +57,7 @@
 			[
 				0,
 				1,
-				2,
-				3
+				2
 			]
 		}
 	],
@@ -97,8 +96,7 @@
 			[
 				0,
 				1,
-				2,
-				3
+				2
 			]
 		}
 	],
@@ -119,13 +117,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "1-strncat.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "2-strncpy.c",
+			"path" : "5-string_toupper.c",
 			"sourceGroupIndex" : 0
 		}
 	],
