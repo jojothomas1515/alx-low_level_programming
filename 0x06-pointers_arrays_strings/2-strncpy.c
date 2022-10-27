@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * _strncat -  concat string  by an number of bytes
+ * _strncpy - concat string  by an number of bytes
  * @dest: target or destination
  * @src: source
  * @n: bytes
  * Returns a pointer to destination
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy (char *dest, char *src, int n)
 {
 	int i;
 
-	for(i = 0; src[i] != '\0' && i < n; i++)
+	for (i = 0; src[i] != '\0' && i < n; i++)
 	{
 		if (i < n)
 		{
