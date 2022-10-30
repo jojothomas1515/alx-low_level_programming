@@ -8,16 +8,16 @@
 
 int main(void)
 {
-	int i, nt;
-	int f = 0, s = 1;
+	long int i, nt;
+	long int f = 0, s = 1;
 
 	nt = f + s;
 
-	 for (i = 0; i <10; i++)
+	 for (i = 0; i <50; i++)
 	 {
 
-		 printf("%d", nt);
-		 if (i != 9)
+		 printf("%ld", nt);
+		 if (i != 49)
 			 putchar(',');
 		 printf("\n");
 
