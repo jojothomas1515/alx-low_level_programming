@@ -11,12 +11,12 @@ int main(void)
 {
 	unsigned long int i, j, target, flag, res;
 
-	target = 612852475143;
+	target = 6126778987;
 	res = 0;
 
-	for (i = 0; i <= target; i++)
+	for (i = 1; i <= target; i++)
 	{
-		if((target % i) == 0)
+		if ((target % i) == 0)
 		{
 			flag = 0;
 			for (j = 2; j < i; j++)
@@ -33,7 +33,6 @@ int main(void)
 		}
 	}
 
-	printf("%u\n", res);
+	printf("%lu\n", res);
 	return (0);
 }
-
