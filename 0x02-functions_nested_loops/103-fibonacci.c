@@ -15,6 +15,8 @@ int main(void)
 
 	for (i = 0; i < 4000000; i++)
 	{
+		if (nt >= 4000000)
+			break;
 		if ((nt % 2) == 0)
 		{
 			sum += nt;
