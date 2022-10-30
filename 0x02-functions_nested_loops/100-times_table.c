@@ -1,48 +1,42 @@
-#include "main.h"
+
+#include"main.h"
 
 /**
- * print_times_table - times table
- * @num: the table size
+ * print_times_table - prints time table of n
  *
- * Description: the multiplication table
- * Return: 0
- */
+ * @n: takes number input
+*/
 
-void print_times_table(int num) {
-    int m = 0, n;
-    if (num < 0 || num > 15)
-    {
-        _putchar('$');
-        _putchar('\n');
-    }
-    else
-    {
-    for (m = 0; m < num; m++)
-    {
-        for (n = 0; n < num; n++)
-        {
-            int result = n * m;
-            int ld = result % 10;
-            if (result < 10)
-            {
-                _putchar(' ');
-                _putchar(' ');
-                _putchar(' ');
-            }
-            else if (result < 100)
-            {
-                _putchar(' ');
-                _putchar(' ');
-            }
-            else if (result < 1000)
-            {
-                _putchar(' ');
-            }
-            _putchar( ld + 48);
+void print_times_table(int n)
+{
+	int prod, mult, num;
 
-        }
-        _putchar('$');
-        _putchar('\n');
-    }
-    }
+	if (n <= 15 && n >= 0)
+	{
+		for (num = 0; num <= n; ++num)
+		{
+			_putchar(48);
+			for (mult = 1; mult <= n; ++mult)
+			{
+				_putchar(',');
+				_putchar(' ');
+
+				prod = num * mult;
+
+				if (prod <= 9)
+					_putchar(' ');
+				if (prod <= 99)
+					_putchar(' ');
+
+				if (prod >= 100)
+				{
+					_putchar((prod / 100) + 48);
+					_putchar((prod / 10) % 10 + 48);
+				} else if (prod <= 99 && prod >= 10)
+					_putchar((prod / 10) + 48);
+				_putchar((prod % 10) + 48);
+			}
+			_putchar('\n');
+		}
+	}
 }
