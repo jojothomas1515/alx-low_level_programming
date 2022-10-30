@@ -32,6 +32,6 @@ int main(void)
 		s = nt;
 		nt = s + f;
 	}
-	printf("%d\n", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
