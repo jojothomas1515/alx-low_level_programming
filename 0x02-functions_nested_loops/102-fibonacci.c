@@ -13,17 +13,19 @@ int main(void)
 
 	nt = f + s;
 
-	 for (i = 0; i <50; i++)
-	 {
+	for (i = 0; i < 50; i++)
+	{
+		printf("%ld", nt);
+		if (i != 49)
+		{
+			putchar(',');
+		}
 
-		 printf("%ld", nt);
-		 if (i != 49)
-			 putchar(',');
-		 printf("\n");
+		printf("\n");
 
-		 f = s;
-		 s = nt;
-		 nt = s + f;
-	 }
+		f = s;
+		s = nt;
+		nt = s + f;
+	}
 	return (0);
 }
