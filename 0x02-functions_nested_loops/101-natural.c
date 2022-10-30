@@ -10,19 +10,18 @@
 
 int main(void)
 {
-    int i, target, sum;
+	int i, target, sum;
 
-    sum = 0;
-    target = 1024;
-    for (i=0; i <= target; i++)
-    {
-        if ((i % 3) == 0 || (i % 5) == 0)
-        {
-            sum += i;
-        }
-    }
+	sum = 0;
+	target = 1024;
+	for (i = 0; i <= target; i++)
+	{
+		if ((i % 3) == 0 || (i % 5) == 0)
+		{
+			sum += i;
+		}
+	}
 
-    printf("%d\n", sum);
-
-    return 0;
+	printf("%d\n", sum);
+	return (0);
 }
