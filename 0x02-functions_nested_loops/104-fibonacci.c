@@ -13,7 +13,7 @@ int main(void)
 
 	nt = f + s;
 
-	for (i = 0; i <= 98; i++)
+	for (i = 0; i < 98; i++)
 	{
 		printf("%ld", nt);
 		if (i != 49)
