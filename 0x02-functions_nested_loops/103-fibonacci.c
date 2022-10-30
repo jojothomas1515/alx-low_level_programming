@@ -9,7 +9,7 @@
 int main(void)
 {
 	long int i, nt, sum = 0;
-	long int f = 0, s = 1;
+	long int f = 1, s = 2;
 
 	nt = f + s;
 

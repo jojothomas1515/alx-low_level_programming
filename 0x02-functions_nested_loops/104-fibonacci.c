@@ -8,14 +8,14 @@
 
 int main(void)
 {
-	long int i, nt;
-	long int f = 0, s = 1;
+	long unsigned int i, nt;
+	long unsigned int f = 0, s = 1;
 
 	nt = f + s;
 
 	for (i = 0; i < 98; i++)
 	{
-		printf("%ld", nt);
+		printf("%lu", nt);
 		if (i != 49)
 		{
 			putchar(',');
