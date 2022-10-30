@@ -21,11 +21,10 @@ int main(void)
 			putchar(',');
 		}
 
-		printf("\n");
-
 		f = s;
 		s = nt;
 		nt = s + f;
 	}
+	printf("\n");
 	return (0);
 }
