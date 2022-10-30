@@ -19,6 +19,7 @@ int main(void)
 		if (i != 49)
 		{
 			putchar(',');
+			putchar(' ');
 		}
 
 		f = s;
