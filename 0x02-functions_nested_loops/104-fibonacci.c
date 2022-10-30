@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	long unsigned int i, nt;
-	long unsigned int f = 0, s = 1;
+	unsigned long int i, nt;
+	unsigned long int f = 0, s = 1;
 
 	nt = f + s;
 
