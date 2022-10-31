@@ -5,5 +5,5 @@ SET(CMAKE_C_COMPILER gcc)
 
 set(CMAKE_C_FLAGS "-Wall -pedantic -Werror -Wextra -std=gnu89")
 
-add_executable(alx 3-main.c 0-memset.c 1-memcpy.c 2-strchr.c 3-strspn.c)
+add_executable(alx 5-main.c 0-memset.c 1-memcpy.c 2-strchr.c 3-strspn.c 5-strstr.c)
 
