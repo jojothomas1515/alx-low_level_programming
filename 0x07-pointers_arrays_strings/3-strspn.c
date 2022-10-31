@@ -21,8 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		if (!f)
 			break;
-		else
-			len++;
+		len++;
 
 	}
 	return (len);
