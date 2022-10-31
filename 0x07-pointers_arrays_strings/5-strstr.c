@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * _strstr - finds the first substring
+ * @haystack: haystack
+ * @needle: needle
+ * Return: 0
+ */
+
 char *_strstr(char *haystack, char *needle)
 {
 	int i = 0, j, f = 0;
