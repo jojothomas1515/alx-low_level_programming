@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strbrk - locates first occurence of a byte
+ * _strpbrk - locates first occurence of a byte
  * @s: target string
  * @accept: char to look for
  * Return: address if the target character or NULL
