@@ -11,7 +11,10 @@ void print_chessboard(char (*a)[8])
 			putchar(a[i][j]);
 			j++;
 		}
+		if (a[i + 1][0] != '\0')
+			putchar(',');
 		putchar('\n');
 		i++;
+
 	}
 }
