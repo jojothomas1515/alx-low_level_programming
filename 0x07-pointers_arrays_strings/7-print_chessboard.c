@@ -2,19 +2,20 @@
 
 void print_chessboard(char (*a)[8])
 {
-	int i = 0, j;
-	while (a[i][0] != '\0')
-	{
-		j = 0;
-		while (a[i][j] != '\0')
-		{
-			putchar(a[i][j]);
-			j++;
-		}
-		if (a[i + 1][0] != '\0')
-			putchar(',');
-		putchar('\n');
-		i++;
+	int i, j;
 
+	i = 0;
+	j = 0;
+	while (i < 64)
+	{
+		if (i % 8 == 0 && i != 0)
+		{
+			j = i;
+			putchar('\n');
+		}
+
+		putchar(a[i / 8][i - j]);
+		i++;
 	}
+	putchar('\n');
 }
