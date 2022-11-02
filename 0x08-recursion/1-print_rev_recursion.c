@@ -6,9 +6,6 @@
  * @s: string
  */
 
-
-int _strlen(char *s);
-
 void _print_rev_recursion(char *s)
 {
 
