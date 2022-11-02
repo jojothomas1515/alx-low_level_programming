@@ -6,8 +6,7 @@
  * Return: length
  */
 
-int _strlen(char *s)
-{
+int _strlen_recursion(char *s){
 	if (*s != '\0')
 	{
 		return (1 + _strlen(s + 1));
