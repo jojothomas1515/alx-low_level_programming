@@ -2,6 +2,8 @@
 #define INC_0X07_POINTERS_ARRAYS_STRINGS_MAIN_H
 #include <stdio.h>
 
+int tmp_prime(int n, int i);
+int _sqrt(int, int);
 
 int _putchar(char c);
 void _puts_recursion(char *s);

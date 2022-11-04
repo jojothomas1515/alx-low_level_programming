@@ -1,6 +1,5 @@
 #include "main.h"
 
-int tmp_prime(int n, int i);
 
 /**
  * divisors - number is prime?
