@@ -4,4 +4,7 @@ if [ -f "./*.o" ]; then
   rm ./*.o
 fi
 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -c && ar rc liball.a *.o && ranlib liball.a
+gcc *.c -c
+ar rc liball.a *.o
+
+echo y| rm -I *.o
