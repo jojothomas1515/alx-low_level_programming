@@ -4,5 +4,7 @@
 #include <stdio.h>
 
 int _containChar(char *);
+int _add(int, char **);
+
 
 #endif
