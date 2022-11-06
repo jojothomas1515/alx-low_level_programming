@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int _containChar(char *);
+
 /**
  * main - program entry point
  * @argc: command line argument count
@@ -18,9 +20,9 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	for (i = 0; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) >= 0 && atoi(argv[i]) <= 9)
+		if (_containChar(argv[i]))
 		{
 			sum += atoi(argv[i]);
 		} else
@@ -32,4 +34,25 @@ int main(int argc, char *argv[])
 	printf("%d\n", sum);
 	return (0);
 
+}
+
+/**
+ * _containChar - char if argument pass to the program contains a character
+ * @s: argv argument
+ * Return: 0 for flase 1 for true
+ */
+
+int _containChar(char *s)
+{
+	int i = 0;
+
+	while (*(s + i) != '\0')
+	{
+		if (*(s + i) < 48 || (*(s + i) > 57))
+		{
+			return (0);
+		}
+		i++;
+	}
+	return (1);
 }
