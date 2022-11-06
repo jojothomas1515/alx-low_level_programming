@@ -9,8 +9,29 @@
  */
 int main(int argc, char *argv[])
 {
-	int res = _add(argc, argv);
-	return (res);
+	int sum;
+	int i;
+
+	if (argc == 1)
+	{
+		printf("%d\n", 0);
+		return (1);
+	}
+
+	for (i = 1; i < argc; i++)
+	{
+		if (_containChar(argv[i]))
+		{
+			sum += atoi(argv[i]);
+		} else
+		{
+			printf("Error\n");
+			return (1);
+		}
+	}
+	printf("%d\n", sum);
+	return (0);
+
 }
 
 /**
@@ -32,30 +53,4 @@ int _containChar(char *s)
 		i++;
 	}
 	return (1);
-}
-
-int _add(int argc, char **argv)
-{
-	int sum;
-	int i;
-	if (argc == 1)
-	{
-		printf("%d\n", 0);
-		return (1);
-	}
-
-	for (i = 1; i < argc; i++)
-	{
-		if (_containChar(argv[i]))
-		{
-			sum += atoi(argv[i]);
-		} else
-		{
-			printf("Error\n");
-			return (1);
-		}
-	}
-	printf("%d\n", sum);
-	return (0);
-
 }
