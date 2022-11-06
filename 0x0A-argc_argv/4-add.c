@@ -9,8 +9,8 @@
  */
 int main(int argc, char *argv[])
 {
-	_add(argc, argv);
-	return (0);
+	int res = _add(argc, argv);
+	return (res);
 }
 
 /**
