@@ -7,7 +7,6 @@
  */
 int main(int argc, char *argv[])
 {
-	int coin, cent;
 
 	if (argc != 2)
 	{
@@ -16,6 +15,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
+		int coin, cent;
+
 		cent = atoi(argv[1]);
 
 		while (cent > 0)
