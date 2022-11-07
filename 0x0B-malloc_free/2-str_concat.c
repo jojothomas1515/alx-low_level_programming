@@ -23,6 +23,9 @@ char *str_concat(char *s1, char *s2)
 
 	ptr = malloc(s1_LEN + s2_LEN + 1);
 
+	if (ptr == NULL)
+		return (NULL);
+
 	while (*s1 != '\0')
 	{
 		ptr[i] = *s1;
