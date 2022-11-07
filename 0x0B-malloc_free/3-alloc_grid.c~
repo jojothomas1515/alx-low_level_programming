@@ -1,0 +1,35 @@
+#include "main.h"
+
+/**
+ * alloc_grid - done
+ * @width: width
+ * @height: height
+ * Return: return pointer to a pointer
+ */
+
+
+int **alloc_grid(int width, int height)
+{
+	int **ptr, *ptr2;
+	int i;
+
+	if (width <= 0 || height <= 0)
+		return (NULL);
+
+	ptr = (int **)malloc(sizeof(int) * height + 1);
+
+	for (i = 0; i < height; i++)
+	{
+		ptr2 =(int *) malloc(sizeof(int) * width + 1);
+		ptr[i] = ptr2;
+	}
+
+	if (ptr == NULL)
+		return (NULL);
+
+	for(i = 0;i < ((width * height) + 1); i++)
+	{
+		ptr[i] = 0;
+	}
+	return (ptr);
+}
