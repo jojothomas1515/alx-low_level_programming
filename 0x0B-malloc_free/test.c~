@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+char *foo(char c)
+{
+	char a = c;
+	char *ptr = &a;
+
+	return (ptr);
+}
+
+int main(void)
+{
+	char *tst = foo('a');
+	char *tst2 = foo('b');
+	char *tst3 = foo('3');
+
+
+	printf("%c\n", *tst);
+	return (0);
+}
