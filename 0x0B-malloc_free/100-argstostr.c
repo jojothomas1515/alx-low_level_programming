@@ -15,12 +15,12 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	for (i = 1; av[i]; i++)
+	for (i = 0; av[i]; i++)
 		len += strlen(av[i]);
 
 	ptr = malloc(sizeof(char) * len + ac);
 
-	for (i = 1; av[i]; i++)
+	for (i = 0; av[i]; i++)
 	{
 		strcat(ptr, av[i]);
 		strcat(ptr, "\n");
