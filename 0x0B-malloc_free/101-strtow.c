@@ -99,4 +99,3 @@ char **strtow(char *str)
 	string[i] = NULL;
 	return (string);
 }
-j
