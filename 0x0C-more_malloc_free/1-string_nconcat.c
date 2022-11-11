@@ -13,13 +13,23 @@ int _strlen(char *);
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *newstr;
-	unsigned int length = _strlen(s1), i = 0, j = 0;
-	unsigned int length2 = _strlen(s2);
+	unsigned int length;
+	unsigned int length2, i, j;
+
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+
+	length = _strlen(s1);
+	length2 = _strlen(s2);
+	i = 0;
+	j = 0;
 
 	if (length2 <= n)
 		n = length2;
 
-	newstr = malloc(length + n );
+	newstr = malloc(length + n);
 	if (newstr == NULL)
 		return (NULL);
 
