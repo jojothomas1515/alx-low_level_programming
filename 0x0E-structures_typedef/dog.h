@@ -1,11 +1,10 @@
 #ifndef JOJO_TESTING_DOG_H
 #define JOJO_TESTING_DOG_H
 
-struct dog
-{
+struct dog{
     char *name;
-    char *owner;
     int *age;
+    char *owner;
 };
 
 #endif /* JOJO_TESTING_DOG_H */
