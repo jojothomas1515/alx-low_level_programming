@@ -7,5 +7,9 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
+	if (name == NULL)
+		exit(1);
+	if (f == NULL)
+		exit(1);
 	(*f)(name);
 }
