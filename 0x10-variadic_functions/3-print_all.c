@@ -4,7 +4,7 @@
  * print_char - print a char
  *
  * @arg: a list of argument pointing
- *      to the character to be printed
+ * to the character to be printed
  *
  * Return: nothing
 */
@@ -87,9 +87,9 @@ void print_all(const char *const format, ...)
 	int i = 0, j = 0;
 	char *separator = "";
 	func_printer funcs[] = {{"c", print_char},
-	                        {"i", print_int},
-	                        {"f", print_float},
-	                        {"s", print_string}};
+				{"i", print_int},
+				{"f", print_float},
+				{"s", print_string}};
 
 	va_start(ap, format);
 
