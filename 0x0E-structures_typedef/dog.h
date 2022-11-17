@@ -8,10 +8,11 @@
  * @owner: dog owner
  */
 
-struct dog{
+struct dog
+{
     char *name;
-    float *age;
     char *owner;
+    float age;
 };
 
 #endif /* JOJO_TESTING_DOG_H */
