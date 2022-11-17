@@ -13,6 +13,10 @@ int sum_them_all(const unsigned int n, ...)
 	va_list ap;
 	unsigned int param, sum = 0;
 
+	if (n == 0)
+		return (0);
+
+
 	/* initialize the argument list from the start */
 	va_start(ap, n);
 
