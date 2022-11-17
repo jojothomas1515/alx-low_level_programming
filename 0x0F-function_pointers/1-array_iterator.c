@@ -12,6 +12,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	if (!(size) || size <= 0)
 		exit(1);
+
 	if (!action)
 		exit(1);
 
