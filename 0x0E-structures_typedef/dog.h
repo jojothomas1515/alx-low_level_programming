@@ -1,5 +1,6 @@
 #ifndef JOJO_TESTING_DOG_H
 #define JOJO_TESTING_DOG_H
+
 /**
  * struct dog - dog info
  * @name: dog name
@@ -13,5 +14,7 @@ struct dog
 	float age;
 	char *owner;
 };
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif /* JOJO_TESTING_DOG_H */
