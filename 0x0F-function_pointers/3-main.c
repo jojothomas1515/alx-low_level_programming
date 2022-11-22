@@ -1,4 +1,10 @@
 #include "3-calc.h"
+/**
+ * main - entry point
+ * @argc: arg count
+ * @argv: arg var
+ * Return: done
+ */
 
 int main(int argc, char **argv)
 {
