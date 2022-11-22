@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 	int num1, num2;
 	char *operator;
 
-	if (argc > 4 && argc < 4)
+	if (argc != 4)
 	{
 		printf("Error");
 		exit(98);
