@@ -69,44 +69,44 @@ include CMakeFiles/alx.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/alx.dir/flags.make
 
-CMakeFiles/alx.dir/0-main.c.o: CMakeFiles/alx.dir/flags.make
-CMakeFiles/alx.dir/0-main.c.o: 0-main.c
-CMakeFiles/alx.dir/0-main.c.o: CMakeFiles/alx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/alx.dir/0-main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/alx.dir/0-main.c.o -MF CMakeFiles/alx.dir/0-main.c.o.d -o CMakeFiles/alx.dir/0-main.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/0-main.c
+CMakeFiles/alx.dir/1-main.c.o: CMakeFiles/alx.dir/flags.make
+CMakeFiles/alx.dir/1-main.c.o: 1-main.c
+CMakeFiles/alx.dir/1-main.c.o: CMakeFiles/alx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/alx.dir/1-main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/alx.dir/1-main.c.o -MF CMakeFiles/alx.dir/1-main.c.o.d -o CMakeFiles/alx.dir/1-main.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/1-main.c
 
-CMakeFiles/alx.dir/0-main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alx.dir/0-main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/0-main.c > CMakeFiles/alx.dir/0-main.c.i
+CMakeFiles/alx.dir/1-main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alx.dir/1-main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/1-main.c > CMakeFiles/alx.dir/1-main.c.i
 
-CMakeFiles/alx.dir/0-main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alx.dir/0-main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/0-main.c -o CMakeFiles/alx.dir/0-main.c.s
+CMakeFiles/alx.dir/1-main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alx.dir/1-main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/1-main.c -o CMakeFiles/alx.dir/1-main.c.s
 
-CMakeFiles/alx.dir/0-print_list.c.o: CMakeFiles/alx.dir/flags.make
-CMakeFiles/alx.dir/0-print_list.c.o: 0-print_list.c
-CMakeFiles/alx.dir/0-print_list.c.o: CMakeFiles/alx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/alx.dir/0-print_list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/alx.dir/0-print_list.c.o -MF CMakeFiles/alx.dir/0-print_list.c.o.d -o CMakeFiles/alx.dir/0-print_list.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/0-print_list.c
+CMakeFiles/alx.dir/1-list_len.c.o: CMakeFiles/alx.dir/flags.make
+CMakeFiles/alx.dir/1-list_len.c.o: 1-list_len.c
+CMakeFiles/alx.dir/1-list_len.c.o: CMakeFiles/alx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/alx.dir/1-list_len.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/alx.dir/1-list_len.c.o -MF CMakeFiles/alx.dir/1-list_len.c.o.d -o CMakeFiles/alx.dir/1-list_len.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c
 
-CMakeFiles/alx.dir/0-print_list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alx.dir/0-print_list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/0-print_list.c > CMakeFiles/alx.dir/0-print_list.c.i
+CMakeFiles/alx.dir/1-list_len.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alx.dir/1-list_len.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c > CMakeFiles/alx.dir/1-list_len.c.i
 
-CMakeFiles/alx.dir/0-print_list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alx.dir/0-print_list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/0-print_list.c -o CMakeFiles/alx.dir/0-print_list.c.s
+CMakeFiles/alx.dir/1-list_len.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alx.dir/1-list_len.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c -o CMakeFiles/alx.dir/1-list_len.c.s
 
 # Object files for target alx
 alx_OBJECTS = \
-"CMakeFiles/alx.dir/0-main.c.o" \
-"CMakeFiles/alx.dir/0-print_list.c.o"
+"CMakeFiles/alx.dir/1-main.c.o" \
+"CMakeFiles/alx.dir/1-list_len.c.o"
 
 # External object files for target alx
 alx_EXTERNAL_OBJECTS =
 
-alx: CMakeFiles/alx.dir/0-main.c.o
-alx: CMakeFiles/alx.dir/0-print_list.c.o
+alx: CMakeFiles/alx.dir/1-main.c.o
+alx: CMakeFiles/alx.dir/1-list_len.c.o
 alx: CMakeFiles/alx.dir/build.make
 alx: CMakeFiles/alx.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable alx"

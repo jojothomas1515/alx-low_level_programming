@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/0-main.c" "CMakeFiles/alx.dir/0-main.c.o" "gcc" "CMakeFiles/alx.dir/0-main.c.o.d"
-  "/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/0-print_list.c" "CMakeFiles/alx.dir/0-print_list.c.o" "gcc" "CMakeFiles/alx.dir/0-print_list.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c" "CMakeFiles/alx.dir/1-list_len.c.o" "gcc" "CMakeFiles/alx.dir/1-list_len.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/1-main.c" "CMakeFiles/alx.dir/1-main.c.o" "gcc" "CMakeFiles/alx.dir/1-main.c.o.d"
   )
 
 # Targets to which this target links.

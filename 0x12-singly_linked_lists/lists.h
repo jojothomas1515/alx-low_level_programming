@@ -20,5 +20,6 @@ typedef struct list_s
 typedef unsigned int _u_int;
 
 size_t print_list(const list_t *h);
+size_t list_len(const list_t *h);
 
 #endif /* LIST_H */
