@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/alx.dir/1-list_len.c.o"
-  "CMakeFiles/alx.dir/1-list_len.c.o.d"
-  "CMakeFiles/alx.dir/1-main.c.o"
-  "CMakeFiles/alx.dir/1-main.c.o.d"
+  "CMakeFiles/alx.dir/0-print_list.c.o"
+  "CMakeFiles/alx.dir/0-print_list.c.o.d"
+  "CMakeFiles/alx.dir/2-add_node.c.o"
+  "CMakeFiles/alx.dir/2-add_node.c.o.d"
+  "CMakeFiles/alx.dir/2-main.c.o"
+  "CMakeFiles/alx.dir/2-main.c.o.d"
   "alx"
   "alx.pdb"
 )

@@ -1,5 +1,5 @@
-CMakeFiles/alx.dir/0-print_list.c.o: \
- /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/0-print_list.c \
+CMakeFiles/alx.dir/2-add_node.c.o: \
+ /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/2-add_node.c \
  /usr/include/stdc-predef.h \
  /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/lists.h \
  /usr/include/stdio.h \

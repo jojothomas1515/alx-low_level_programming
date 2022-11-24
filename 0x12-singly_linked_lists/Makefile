@@ -129,53 +129,77 @@ alx/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/build
 .PHONY : alx/fast
 
-1-list_len.o: 1-list_len.c.o
-.PHONY : 1-list_len.o
+0-print_list.o: 0-print_list.c.o
+.PHONY : 0-print_list.o
 
 # target to build an object file
-1-list_len.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/1-list_len.c.o
-.PHONY : 1-list_len.c.o
+0-print_list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/0-print_list.c.o
+.PHONY : 0-print_list.c.o
 
-1-list_len.i: 1-list_len.c.i
-.PHONY : 1-list_len.i
+0-print_list.i: 0-print_list.c.i
+.PHONY : 0-print_list.i
 
 # target to preprocess a source file
-1-list_len.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/1-list_len.c.i
-.PHONY : 1-list_len.c.i
+0-print_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/0-print_list.c.i
+.PHONY : 0-print_list.c.i
 
-1-list_len.s: 1-list_len.c.s
-.PHONY : 1-list_len.s
+0-print_list.s: 0-print_list.c.s
+.PHONY : 0-print_list.s
 
 # target to generate assembly for a file
-1-list_len.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/1-list_len.c.s
-.PHONY : 1-list_len.c.s
+0-print_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/0-print_list.c.s
+.PHONY : 0-print_list.c.s
 
-1-main.o: 1-main.c.o
-.PHONY : 1-main.o
+2-add_node.o: 2-add_node.c.o
+.PHONY : 2-add_node.o
 
 # target to build an object file
-1-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/1-main.c.o
-.PHONY : 1-main.c.o
+2-add_node.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/2-add_node.c.o
+.PHONY : 2-add_node.c.o
 
-1-main.i: 1-main.c.i
-.PHONY : 1-main.i
+2-add_node.i: 2-add_node.c.i
+.PHONY : 2-add_node.i
 
 # target to preprocess a source file
-1-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/1-main.c.i
-.PHONY : 1-main.c.i
+2-add_node.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/2-add_node.c.i
+.PHONY : 2-add_node.c.i
 
-1-main.s: 1-main.c.s
-.PHONY : 1-main.s
+2-add_node.s: 2-add_node.c.s
+.PHONY : 2-add_node.s
 
 # target to generate assembly for a file
-1-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/1-main.c.s
-.PHONY : 1-main.c.s
+2-add_node.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/2-add_node.c.s
+.PHONY : 2-add_node.c.s
+
+2-main.o: 2-main.c.o
+.PHONY : 2-main.o
+
+# target to build an object file
+2-main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/2-main.c.o
+.PHONY : 2-main.c.o
+
+2-main.i: 2-main.c.i
+.PHONY : 2-main.i
+
+# target to preprocess a source file
+2-main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/2-main.c.i
+.PHONY : 2-main.c.i
+
+2-main.s: 2-main.c.s
+.PHONY : 2-main.s
+
+# target to generate assembly for a file
+2-main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/2-main.c.s
+.PHONY : 2-main.c.s
 
 # Help Target
 help:
@@ -186,12 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... alx"
-	@echo "... 1-list_len.o"
-	@echo "... 1-list_len.i"
-	@echo "... 1-list_len.s"
-	@echo "... 1-main.o"
-	@echo "... 1-main.i"
-	@echo "... 1-main.s"
+	@echo "... 0-print_list.o"
+	@echo "... 0-print_list.i"
+	@echo "... 0-print_list.s"
+	@echo "... 2-add_node.o"
+	@echo "... 2-add_node.i"
+	@echo "... 2-add_node.s"
+	@echo "... 2-main.o"
+	@echo "... 2-main.i"
+	@echo "... 2-main.s"
 .PHONY : help
 
 

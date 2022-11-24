@@ -6,16 +6,14 @@
  * @str: a string
  */
 
-list_t *add_node(list_t **head, const char *str);
+list_t *add_node(list_t **head, const char *str)
 {
 	list_t *old_node = *head;
-
-	list_t new_node, *new_node_ptr = &new_node;
+	list_t *new_node_ptr = malloc(sizeof(list_t));
 
 	new_node_ptr->str = strdup(str);
 	new_node_ptr->len = strlen(str);
 	new_node_ptr->next = old_node;
-
-	free(head);
-	return (new_node_ptr);
+	*head = new_node_ptr;
+	return (*head);
 }
