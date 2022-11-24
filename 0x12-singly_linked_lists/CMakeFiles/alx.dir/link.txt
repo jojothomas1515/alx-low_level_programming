@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wextra -pedantic -std=gnu89 -rdynamic "CMakeFiles/alx.dir/0-main.c.o" "CMakeFiles/alx.dir/0-print_list.c.o" -o alx 
