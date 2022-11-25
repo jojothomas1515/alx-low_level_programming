@@ -3,7 +3,7 @@
 
         section .data
 msg:    db "Hello Holberton!", 0
-fmt:    db "%s";
+fmt:    db "%s",0, 0;
 
         section .text
 
