@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_line() __attribute__((constructor));
+void print_line(void) __attribute__((constructor));
 
 /**
  * main - entry point for my program
