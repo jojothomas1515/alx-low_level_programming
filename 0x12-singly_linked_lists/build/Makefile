@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists
+CMAKE_BINARY_DIR = /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/build/CMakeFiles /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
