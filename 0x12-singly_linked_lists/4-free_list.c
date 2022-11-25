@@ -1,28 +1,28 @@
+
+
 #include "lists.h"
 
 /**
- * free_list - free all of list
- * @head: the head node
+ * free_list - free single list link
+ *
+ * @head: pointer to the first node of the list
+ *
  * Return: nothing
  */
-
 void free_list(list_t *head)
 {
-	list_t *curr_node;
+	list_t *current;
 
 	/**
-	 * set curr_node to the head node 
-	 * then set the head node to the next node 
-	 * then free the memory containing the string
-	 * the free the memory containing the next
-	 * do ot over and over again till the curr is equal null
+	 * while current head is not NULL
+	 * set head as the next node and
+	 * free the current node str then
+	 * free current node.
 	 */
-	curr_node = head;
-	while (curr_node != NULL)
+	while ((current = head) != NULL)
 	{
 		head = head->next;
-		free(curr_node->str);
-		free(curr_node->next);
-		curr_node = head;
+		free(current->str);
+		free(current);
 	}
 }
