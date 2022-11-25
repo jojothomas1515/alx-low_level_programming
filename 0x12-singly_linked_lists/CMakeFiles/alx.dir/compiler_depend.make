@@ -61,7 +61,7 @@ CMakeFiles/alx.dir/0-print_list.c.o: 0-print_list.c \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
 
-CMakeFiles/alx.dir/2-add_node.c.o: 2-add_node.c \
+CMakeFiles/alx.dir/3-add_node_end.c.o: 3-add_node_end.c \
   /usr/include/stdc-predef.h \
   lists.h \
   /usr/include/stdio.h \
@@ -121,7 +121,7 @@ CMakeFiles/alx.dir/2-add_node.c.o: 2-add_node.c \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
 
-CMakeFiles/alx.dir/2-main.c.o: 2-main.c \
+CMakeFiles/alx.dir/3-main.c.o: 3-main.c \
   /usr/include/stdc-predef.h \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -182,6 +182,10 @@ CMakeFiles/alx.dir/2-main.c.o: 2-main.c \
   lists.h
 
 
+3-main.c:
+
+3-add_node_end.c:
+
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
@@ -197,8 +201,6 @@ CMakeFiles/alx.dir/2-main.c.o: 2-main.c \
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/features.h:
-
-2-add_node.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -273,8 +275,6 @@ lists.h:
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-2-main.c:
 
 /usr/include/string.h:
 

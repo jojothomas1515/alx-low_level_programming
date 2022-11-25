@@ -69,33 +69,33 @@ include CMakeFiles/alx.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/alx.dir/flags.make
 
-CMakeFiles/alx.dir/2-main.c.o: CMakeFiles/alx.dir/flags.make
-CMakeFiles/alx.dir/2-main.c.o: 2-main.c
-CMakeFiles/alx.dir/2-main.c.o: CMakeFiles/alx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/alx.dir/2-main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/alx.dir/2-main.c.o -MF CMakeFiles/alx.dir/2-main.c.o.d -o CMakeFiles/alx.dir/2-main.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/2-main.c
+CMakeFiles/alx.dir/3-main.c.o: CMakeFiles/alx.dir/flags.make
+CMakeFiles/alx.dir/3-main.c.o: 3-main.c
+CMakeFiles/alx.dir/3-main.c.o: CMakeFiles/alx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/alx.dir/3-main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/alx.dir/3-main.c.o -MF CMakeFiles/alx.dir/3-main.c.o.d -o CMakeFiles/alx.dir/3-main.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/3-main.c
 
-CMakeFiles/alx.dir/2-main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alx.dir/2-main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/2-main.c > CMakeFiles/alx.dir/2-main.c.i
+CMakeFiles/alx.dir/3-main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alx.dir/3-main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/3-main.c > CMakeFiles/alx.dir/3-main.c.i
 
-CMakeFiles/alx.dir/2-main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alx.dir/2-main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/2-main.c -o CMakeFiles/alx.dir/2-main.c.s
+CMakeFiles/alx.dir/3-main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alx.dir/3-main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/3-main.c -o CMakeFiles/alx.dir/3-main.c.s
 
-CMakeFiles/alx.dir/2-add_node.c.o: CMakeFiles/alx.dir/flags.make
-CMakeFiles/alx.dir/2-add_node.c.o: 2-add_node.c
-CMakeFiles/alx.dir/2-add_node.c.o: CMakeFiles/alx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/alx.dir/2-add_node.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/alx.dir/2-add_node.c.o -MF CMakeFiles/alx.dir/2-add_node.c.o.d -o CMakeFiles/alx.dir/2-add_node.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/2-add_node.c
+CMakeFiles/alx.dir/3-add_node_end.c.o: CMakeFiles/alx.dir/flags.make
+CMakeFiles/alx.dir/3-add_node_end.c.o: 3-add_node_end.c
+CMakeFiles/alx.dir/3-add_node_end.c.o: CMakeFiles/alx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/alx.dir/3-add_node_end.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/alx.dir/3-add_node_end.c.o -MF CMakeFiles/alx.dir/3-add_node_end.c.o.d -o CMakeFiles/alx.dir/3-add_node_end.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/3-add_node_end.c
 
-CMakeFiles/alx.dir/2-add_node.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alx.dir/2-add_node.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/2-add_node.c > CMakeFiles/alx.dir/2-add_node.c.i
+CMakeFiles/alx.dir/3-add_node_end.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/alx.dir/3-add_node_end.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/3-add_node_end.c > CMakeFiles/alx.dir/3-add_node_end.c.i
 
-CMakeFiles/alx.dir/2-add_node.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alx.dir/2-add_node.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/2-add_node.c -o CMakeFiles/alx.dir/2-add_node.c.s
+CMakeFiles/alx.dir/3-add_node_end.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/alx.dir/3-add_node_end.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x12-singly_linked_lists/3-add_node_end.c -o CMakeFiles/alx.dir/3-add_node_end.c.s
 
 CMakeFiles/alx.dir/0-print_list.c.o: CMakeFiles/alx.dir/flags.make
 CMakeFiles/alx.dir/0-print_list.c.o: 0-print_list.c
@@ -113,15 +113,15 @@ CMakeFiles/alx.dir/0-print_list.c.s: cmake_force
 
 # Object files for target alx
 alx_OBJECTS = \
-"CMakeFiles/alx.dir/2-main.c.o" \
-"CMakeFiles/alx.dir/2-add_node.c.o" \
+"CMakeFiles/alx.dir/3-main.c.o" \
+"CMakeFiles/alx.dir/3-add_node_end.c.o" \
 "CMakeFiles/alx.dir/0-print_list.c.o"
 
 # External object files for target alx
 alx_EXTERNAL_OBJECTS =
 
-alx: CMakeFiles/alx.dir/2-main.c.o
-alx: CMakeFiles/alx.dir/2-add_node.c.o
+alx: CMakeFiles/alx.dir/3-main.c.o
+alx: CMakeFiles/alx.dir/3-add_node_end.c.o
 alx: CMakeFiles/alx.dir/0-print_list.c.o
 alx: CMakeFiles/alx.dir/build.make
 alx: CMakeFiles/alx.dir/link.txt
