@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_line(void) __attribute__((constructor));
+void print_line() __attribute__((constructor));
 
 /**
  * main - entry point for my program
@@ -16,7 +16,7 @@ int main(void)
 /**
  * print_line - prints a string
  */
-void print_line(void)
+void print_line()
 {
 	printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
 	
