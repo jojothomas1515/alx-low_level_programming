@@ -4,16 +4,16 @@
  * rot13 - encodes str with rot encryption
  * @str: target string to be encrypted
  * Return: memory address of the string
-*/
+ */
 
 char *rot13(char *str)
 {
-	if (str == NULL)
-		return (NULL);
 	int i, j;
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char encoder[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
+	if (str == NULL)
+		return (NULL);
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (j = 0; alpha[j] != '\0'; j++)
