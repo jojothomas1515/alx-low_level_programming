@@ -7,7 +7,7 @@
 
 * [**list.h**](./lists.h)
 
-<hr"/>
+<hr/>
 
 ## the c source files
 
