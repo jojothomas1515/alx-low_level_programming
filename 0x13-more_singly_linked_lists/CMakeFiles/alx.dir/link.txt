@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -Werror -Wextra -pedantic -std=gnu89 -rdynamic "CMakeFiles/alx.dir/2-main.c.o" "CMakeFiles/alx.dir/2-add_nodeint.c.o" "CMakeFiles/alx.dir/1-listint_len.c.o" CMakeFiles/alx.dir/_putchar.c.o "CMakeFiles/alx.dir/0-print_listint.c.o" -o alx 
