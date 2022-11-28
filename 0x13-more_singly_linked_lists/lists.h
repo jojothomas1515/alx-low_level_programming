@@ -20,7 +20,8 @@ typedef struct listint_s
 
 typedef unsigned int _u_int;
 /* prototype declaration */
-int _putchar(char c);
+int _putchar(char);
 size_t print_listint(const listint_t *h);
+size_t listint_len(const listint_t *h);
 
 #endif /* LIST_H */
