@@ -16,10 +16,10 @@ size_t print_listint(const listint_t *h)
 		return (0);
 
 	/* check if node is valid and stop iterating if not*/
-	while (curr_node->next != NULL)
+	while (curr_node)
 	{
-		counts += _putchar(curr_node->n + '0');
-		_putchar('\n');
+		printf("%d\n", curr_node->n);
+		counts++;
 		curr_node = curr_node->next;
 	}
 	return (counts);
