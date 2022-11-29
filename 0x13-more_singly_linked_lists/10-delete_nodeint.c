@@ -9,22 +9,13 @@
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-	listint_t *curr_node, *prev_node_ptr, *head_node_ptr = *head;
-	_u_int i = 0;
+	listint_t *temp, *curr_node = *head;
 
-	if (head != NULL && *head != NULL)
+	(void)temp;
+	if (index == 0 && curr_node != NULL)
 	{
-		curr_node = head_node_ptr;
-
-		while (curr_node)
-		{
-			i++;
-			prev_node_ptr = curr_node;
-			curr_node = curr_node->next;
-			if (i == index)
-				break;
-		}
-		prev_node_ptr->next = curr_node->next;
+		if (curr_node->next)
+			*head = curr_node->next;
 		free(curr_node);
 		return (1);
 	}
