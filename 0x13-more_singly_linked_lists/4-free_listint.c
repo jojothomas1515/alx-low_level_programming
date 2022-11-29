@@ -19,5 +19,6 @@ void free_listint(listint_t *head)
 		curr_node = curr_node->next;
 		free(temp);
 	}
+	free(curr_node);
 	exit(EXIT_SUCCESS);
 }
