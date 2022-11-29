@@ -9,7 +9,7 @@
 
 size_t print_list(const list_t *h)
 {
-	_u_int count = 0, len;
+	size_t count = 0, len;
 
 	count = 1;
 
