@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "now"
+			"path" : "alx"
 		}
 	],
 	"backtrace" : 1,
@@ -57,11 +57,17 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
-	"id" : "now::@6890427a1f51a3e7e1df",
+	"id" : "alx::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +83,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "now",
-	"nameOnDisk" : "now",
+	"name" : "alx",
+	"nameOnDisk" : "alx",
 	"paths" : 
 	{
 		"build" : ".",
@@ -95,14 +101,20 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				6
+				12
 			]
 		}
 	],
@@ -111,19 +123,49 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "3-main.c",
+			"path" : "9-main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "4-free_listint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "5-free_listint2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "6-pop_listint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "7-get_nodeint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "8-sum_listint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "9-insert_nodeint.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "3-add_nodeint_end.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "2-add_nodeint.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -136,6 +178,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "_putchar.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "2-add_nodeint.c",
 			"sourceGroupIndex" : 0
 		},
 		{

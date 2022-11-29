@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named now
+# Target rules for targets named alx
 
 # Build rule for target.
-now: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 now
-.PHONY : now
+alx: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alx
+.PHONY : alx
 
 # fast build rule for target.
-now/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/build
-.PHONY : now/fast
+alx/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/build
+.PHONY : alx/fast
 
 0-print_listint.o: 0-print_listint.c.o
 .PHONY : 0-print_listint.o
 
 # target to build an object file
 0-print_listint.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/0-print_listint.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/0-print_listint.c.o
 .PHONY : 0-print_listint.c.o
 
 0-print_listint.i: 0-print_listint.c.i
@@ -142,7 +142,7 @@ now/fast:
 
 # target to preprocess a source file
 0-print_listint.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/0-print_listint.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/0-print_listint.c.i
 .PHONY : 0-print_listint.c.i
 
 0-print_listint.s: 0-print_listint.c.s
@@ -150,7 +150,7 @@ now/fast:
 
 # target to generate assembly for a file
 0-print_listint.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/0-print_listint.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/0-print_listint.c.s
 .PHONY : 0-print_listint.c.s
 
 1-listint_len.o: 1-listint_len.c.o
@@ -158,7 +158,7 @@ now/fast:
 
 # target to build an object file
 1-listint_len.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/1-listint_len.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/1-listint_len.c.o
 .PHONY : 1-listint_len.c.o
 
 1-listint_len.i: 1-listint_len.c.i
@@ -166,7 +166,7 @@ now/fast:
 
 # target to preprocess a source file
 1-listint_len.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/1-listint_len.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/1-listint_len.c.i
 .PHONY : 1-listint_len.c.i
 
 1-listint_len.s: 1-listint_len.c.s
@@ -174,7 +174,7 @@ now/fast:
 
 # target to generate assembly for a file
 1-listint_len.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/1-listint_len.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/1-listint_len.c.s
 .PHONY : 1-listint_len.c.s
 
 2-add_nodeint.o: 2-add_nodeint.c.o
@@ -182,7 +182,7 @@ now/fast:
 
 # target to build an object file
 2-add_nodeint.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/2-add_nodeint.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/2-add_nodeint.c.o
 .PHONY : 2-add_nodeint.c.o
 
 2-add_nodeint.i: 2-add_nodeint.c.i
@@ -190,7 +190,7 @@ now/fast:
 
 # target to preprocess a source file
 2-add_nodeint.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/2-add_nodeint.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/2-add_nodeint.c.i
 .PHONY : 2-add_nodeint.c.i
 
 2-add_nodeint.s: 2-add_nodeint.c.s
@@ -198,7 +198,7 @@ now/fast:
 
 # target to generate assembly for a file
 2-add_nodeint.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/2-add_nodeint.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/2-add_nodeint.c.s
 .PHONY : 2-add_nodeint.c.s
 
 3-add_nodeint_end.o: 3-add_nodeint_end.c.o
@@ -206,7 +206,7 @@ now/fast:
 
 # target to build an object file
 3-add_nodeint_end.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-add_nodeint_end.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/3-add_nodeint_end.c.o
 .PHONY : 3-add_nodeint_end.c.o
 
 3-add_nodeint_end.i: 3-add_nodeint_end.c.i
@@ -214,7 +214,7 @@ now/fast:
 
 # target to preprocess a source file
 3-add_nodeint_end.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-add_nodeint_end.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/3-add_nodeint_end.c.i
 .PHONY : 3-add_nodeint_end.c.i
 
 3-add_nodeint_end.s: 3-add_nodeint_end.c.s
@@ -222,39 +222,183 @@ now/fast:
 
 # target to generate assembly for a file
 3-add_nodeint_end.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-add_nodeint_end.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/3-add_nodeint_end.c.s
 .PHONY : 3-add_nodeint_end.c.s
 
-3-main.o: 3-main.c.o
-.PHONY : 3-main.o
+4-free_listint.o: 4-free_listint.c.o
+.PHONY : 4-free_listint.o
 
 # target to build an object file
-3-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-main.c.o
-.PHONY : 3-main.c.o
+4-free_listint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/4-free_listint.c.o
+.PHONY : 4-free_listint.c.o
 
-3-main.i: 3-main.c.i
-.PHONY : 3-main.i
+4-free_listint.i: 4-free_listint.c.i
+.PHONY : 4-free_listint.i
 
 # target to preprocess a source file
-3-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-main.c.i
-.PHONY : 3-main.c.i
+4-free_listint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/4-free_listint.c.i
+.PHONY : 4-free_listint.c.i
 
-3-main.s: 3-main.c.s
-.PHONY : 3-main.s
+4-free_listint.s: 4-free_listint.c.s
+.PHONY : 4-free_listint.s
 
 # target to generate assembly for a file
-3-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-main.c.s
-.PHONY : 3-main.c.s
+4-free_listint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/4-free_listint.c.s
+.PHONY : 4-free_listint.c.s
+
+5-free_listint2.o: 5-free_listint2.c.o
+.PHONY : 5-free_listint2.o
+
+# target to build an object file
+5-free_listint2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/5-free_listint2.c.o
+.PHONY : 5-free_listint2.c.o
+
+5-free_listint2.i: 5-free_listint2.c.i
+.PHONY : 5-free_listint2.i
+
+# target to preprocess a source file
+5-free_listint2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/5-free_listint2.c.i
+.PHONY : 5-free_listint2.c.i
+
+5-free_listint2.s: 5-free_listint2.c.s
+.PHONY : 5-free_listint2.s
+
+# target to generate assembly for a file
+5-free_listint2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/5-free_listint2.c.s
+.PHONY : 5-free_listint2.c.s
+
+6-pop_listint.o: 6-pop_listint.c.o
+.PHONY : 6-pop_listint.o
+
+# target to build an object file
+6-pop_listint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/6-pop_listint.c.o
+.PHONY : 6-pop_listint.c.o
+
+6-pop_listint.i: 6-pop_listint.c.i
+.PHONY : 6-pop_listint.i
+
+# target to preprocess a source file
+6-pop_listint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/6-pop_listint.c.i
+.PHONY : 6-pop_listint.c.i
+
+6-pop_listint.s: 6-pop_listint.c.s
+.PHONY : 6-pop_listint.s
+
+# target to generate assembly for a file
+6-pop_listint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/6-pop_listint.c.s
+.PHONY : 6-pop_listint.c.s
+
+7-get_nodeint.o: 7-get_nodeint.c.o
+.PHONY : 7-get_nodeint.o
+
+# target to build an object file
+7-get_nodeint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/7-get_nodeint.c.o
+.PHONY : 7-get_nodeint.c.o
+
+7-get_nodeint.i: 7-get_nodeint.c.i
+.PHONY : 7-get_nodeint.i
+
+# target to preprocess a source file
+7-get_nodeint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/7-get_nodeint.c.i
+.PHONY : 7-get_nodeint.c.i
+
+7-get_nodeint.s: 7-get_nodeint.c.s
+.PHONY : 7-get_nodeint.s
+
+# target to generate assembly for a file
+7-get_nodeint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/7-get_nodeint.c.s
+.PHONY : 7-get_nodeint.c.s
+
+8-sum_listint.o: 8-sum_listint.c.o
+.PHONY : 8-sum_listint.o
+
+# target to build an object file
+8-sum_listint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/8-sum_listint.c.o
+.PHONY : 8-sum_listint.c.o
+
+8-sum_listint.i: 8-sum_listint.c.i
+.PHONY : 8-sum_listint.i
+
+# target to preprocess a source file
+8-sum_listint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/8-sum_listint.c.i
+.PHONY : 8-sum_listint.c.i
+
+8-sum_listint.s: 8-sum_listint.c.s
+.PHONY : 8-sum_listint.s
+
+# target to generate assembly for a file
+8-sum_listint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/8-sum_listint.c.s
+.PHONY : 8-sum_listint.c.s
+
+9-insert_nodeint.o: 9-insert_nodeint.c.o
+.PHONY : 9-insert_nodeint.o
+
+# target to build an object file
+9-insert_nodeint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/9-insert_nodeint.c.o
+.PHONY : 9-insert_nodeint.c.o
+
+9-insert_nodeint.i: 9-insert_nodeint.c.i
+.PHONY : 9-insert_nodeint.i
+
+# target to preprocess a source file
+9-insert_nodeint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/9-insert_nodeint.c.i
+.PHONY : 9-insert_nodeint.c.i
+
+9-insert_nodeint.s: 9-insert_nodeint.c.s
+.PHONY : 9-insert_nodeint.s
+
+# target to generate assembly for a file
+9-insert_nodeint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/9-insert_nodeint.c.s
+.PHONY : 9-insert_nodeint.c.s
+
+9-main.o: 9-main.c.o
+.PHONY : 9-main.o
+
+# target to build an object file
+9-main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/9-main.c.o
+.PHONY : 9-main.c.o
+
+9-main.i: 9-main.c.i
+.PHONY : 9-main.i
+
+# target to preprocess a source file
+9-main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/9-main.c.i
+.PHONY : 9-main.c.i
+
+9-main.s: 9-main.c.s
+.PHONY : 9-main.s
+
+# target to generate assembly for a file
+9-main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/9-main.c.s
+.PHONY : 9-main.c.s
 
 _putchar.o: _putchar.c.o
 .PHONY : _putchar.o
 
 # target to build an object file
 _putchar.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/_putchar.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/_putchar.c.o
 .PHONY : _putchar.c.o
 
 _putchar.i: _putchar.c.i
@@ -262,7 +406,7 @@ _putchar.i: _putchar.c.i
 
 # target to preprocess a source file
 _putchar.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/_putchar.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/_putchar.c.i
 .PHONY : _putchar.c.i
 
 _putchar.s: _putchar.c.s
@@ -270,7 +414,7 @@ _putchar.s: _putchar.c.s
 
 # target to generate assembly for a file
 _putchar.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/_putchar.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alx.dir/build.make CMakeFiles/alx.dir/_putchar.c.s
 .PHONY : _putchar.c.s
 
 # Help Target
@@ -281,7 +425,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... now"
+	@echo "... alx"
 	@echo "... 0-print_listint.o"
 	@echo "... 0-print_listint.i"
 	@echo "... 0-print_listint.s"
@@ -294,9 +438,27 @@ help:
 	@echo "... 3-add_nodeint_end.o"
 	@echo "... 3-add_nodeint_end.i"
 	@echo "... 3-add_nodeint_end.s"
-	@echo "... 3-main.o"
-	@echo "... 3-main.i"
-	@echo "... 3-main.s"
+	@echo "... 4-free_listint.o"
+	@echo "... 4-free_listint.i"
+	@echo "... 4-free_listint.s"
+	@echo "... 5-free_listint2.o"
+	@echo "... 5-free_listint2.i"
+	@echo "... 5-free_listint2.s"
+	@echo "... 6-pop_listint.o"
+	@echo "... 6-pop_listint.i"
+	@echo "... 6-pop_listint.s"
+	@echo "... 7-get_nodeint.o"
+	@echo "... 7-get_nodeint.i"
+	@echo "... 7-get_nodeint.s"
+	@echo "... 8-sum_listint.o"
+	@echo "... 8-sum_listint.i"
+	@echo "... 8-sum_listint.s"
+	@echo "... 9-insert_nodeint.o"
+	@echo "... 9-insert_nodeint.i"
+	@echo "... 9-insert_nodeint.s"
+	@echo "... 9-main.o"
+	@echo "... 9-main.i"
+	@echo "... 9-main.s"
 	@echo "... _putchar.o"
 	@echo "... _putchar.i"
 	@echo "... _putchar.s"

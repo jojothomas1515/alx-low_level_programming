@@ -11,7 +11,14 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/0-print_listint.c" "CMakeFiles/alx.dir/0-print_listint.c.o" "gcc" "CMakeFiles/alx.dir/0-print_listint.c.o.d"
   "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/1-listint_len.c" "CMakeFiles/alx.dir/1-listint_len.c.o" "gcc" "CMakeFiles/alx.dir/1-listint_len.c.o.d"
   "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-add_nodeint.c" "CMakeFiles/alx.dir/2-add_nodeint.c.o" "gcc" "CMakeFiles/alx.dir/2-add_nodeint.c.o.d"
-  "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-main.c" "CMakeFiles/alx.dir/2-main.c.o" "gcc" "CMakeFiles/alx.dir/2-main.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-add_nodeint_end.c" "CMakeFiles/alx.dir/3-add_nodeint_end.c.o" "gcc" "CMakeFiles/alx.dir/3-add_nodeint_end.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/4-free_listint.c" "CMakeFiles/alx.dir/4-free_listint.c.o" "gcc" "CMakeFiles/alx.dir/4-free_listint.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/5-free_listint2.c" "CMakeFiles/alx.dir/5-free_listint2.c.o" "gcc" "CMakeFiles/alx.dir/5-free_listint2.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/6-pop_listint.c" "CMakeFiles/alx.dir/6-pop_listint.c.o" "gcc" "CMakeFiles/alx.dir/6-pop_listint.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/7-get_nodeint.c" "CMakeFiles/alx.dir/7-get_nodeint.c.o" "gcc" "CMakeFiles/alx.dir/7-get_nodeint.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/8-sum_listint.c" "CMakeFiles/alx.dir/8-sum_listint.c.o" "gcc" "CMakeFiles/alx.dir/8-sum_listint.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/9-insert_nodeint.c" "CMakeFiles/alx.dir/9-insert_nodeint.c.o" "gcc" "CMakeFiles/alx.dir/9-insert_nodeint.c.o.d"
+  "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/9-main.c" "CMakeFiles/alx.dir/9-main.c.o" "gcc" "CMakeFiles/alx.dir/9-main.c.o.d"
   "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/_putchar.c" "CMakeFiles/alx.dir/_putchar.c.o" "gcc" "CMakeFiles/alx.dir/_putchar.c.o.d"
   )
 
