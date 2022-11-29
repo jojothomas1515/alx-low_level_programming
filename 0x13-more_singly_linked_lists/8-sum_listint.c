@@ -1,5 +1,11 @@
 #include "lists.h"
 
+/**
+ * sum_listint - sums the int in the linked list
+ * @head: pointer to the linked list 
+ * Return: the sum
+*/
+
 int sum_listint(listint_t *head)
 {
         listint_t *curr_node;
