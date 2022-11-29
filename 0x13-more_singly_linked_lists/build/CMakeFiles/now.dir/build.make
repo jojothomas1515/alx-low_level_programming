@@ -69,24 +69,38 @@ include CMakeFiles/now.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/now.dir/flags.make
 
-CMakeFiles/now.dir/2-main.c.o: CMakeFiles/now.dir/flags.make
-CMakeFiles/now.dir/2-main.c.o: /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-main.c
-CMakeFiles/now.dir/2-main.c.o: CMakeFiles/now.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/now.dir/2-main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/now.dir/2-main.c.o -MF CMakeFiles/now.dir/2-main.c.o.d -o CMakeFiles/now.dir/2-main.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-main.c
+CMakeFiles/now.dir/3-main.c.o: CMakeFiles/now.dir/flags.make
+CMakeFiles/now.dir/3-main.c.o: /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-main.c
+CMakeFiles/now.dir/3-main.c.o: CMakeFiles/now.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/now.dir/3-main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/now.dir/3-main.c.o -MF CMakeFiles/now.dir/3-main.c.o.d -o CMakeFiles/now.dir/3-main.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-main.c
 
-CMakeFiles/now.dir/2-main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/now.dir/2-main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-main.c > CMakeFiles/now.dir/2-main.c.i
+CMakeFiles/now.dir/3-main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/now.dir/3-main.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-main.c > CMakeFiles/now.dir/3-main.c.i
 
-CMakeFiles/now.dir/2-main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/now.dir/2-main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-main.c -o CMakeFiles/now.dir/2-main.c.s
+CMakeFiles/now.dir/3-main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/now.dir/3-main.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-main.c -o CMakeFiles/now.dir/3-main.c.s
+
+CMakeFiles/now.dir/3-add_nodeint_end.c.o: CMakeFiles/now.dir/flags.make
+CMakeFiles/now.dir/3-add_nodeint_end.c.o: /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-add_nodeint_end.c
+CMakeFiles/now.dir/3-add_nodeint_end.c.o: CMakeFiles/now.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/now.dir/3-add_nodeint_end.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/now.dir/3-add_nodeint_end.c.o -MF CMakeFiles/now.dir/3-add_nodeint_end.c.o.d -o CMakeFiles/now.dir/3-add_nodeint_end.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-add_nodeint_end.c
+
+CMakeFiles/now.dir/3-add_nodeint_end.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/now.dir/3-add_nodeint_end.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-add_nodeint_end.c > CMakeFiles/now.dir/3-add_nodeint_end.c.i
+
+CMakeFiles/now.dir/3-add_nodeint_end.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/now.dir/3-add_nodeint_end.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-add_nodeint_end.c -o CMakeFiles/now.dir/3-add_nodeint_end.c.s
 
 CMakeFiles/now.dir/2-add_nodeint.c.o: CMakeFiles/now.dir/flags.make
 CMakeFiles/now.dir/2-add_nodeint.c.o: /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-add_nodeint.c
 CMakeFiles/now.dir/2-add_nodeint.c.o: CMakeFiles/now.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/now.dir/2-add_nodeint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/now.dir/2-add_nodeint.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/now.dir/2-add_nodeint.c.o -MF CMakeFiles/now.dir/2-add_nodeint.c.o.d -o CMakeFiles/now.dir/2-add_nodeint.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-add_nodeint.c
 
 CMakeFiles/now.dir/2-add_nodeint.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/now.dir/2-add_nodeint.c.s: cmake_force
 CMakeFiles/now.dir/1-listint_len.c.o: CMakeFiles/now.dir/flags.make
 CMakeFiles/now.dir/1-listint_len.c.o: /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/1-listint_len.c
 CMakeFiles/now.dir/1-listint_len.c.o: CMakeFiles/now.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/now.dir/1-listint_len.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/now.dir/1-listint_len.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/now.dir/1-listint_len.c.o -MF CMakeFiles/now.dir/1-listint_len.c.o.d -o CMakeFiles/now.dir/1-listint_len.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/1-listint_len.c
 
 CMakeFiles/now.dir/1-listint_len.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/now.dir/1-listint_len.c.s: cmake_force
 CMakeFiles/now.dir/_putchar.c.o: CMakeFiles/now.dir/flags.make
 CMakeFiles/now.dir/_putchar.c.o: /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/_putchar.c
 CMakeFiles/now.dir/_putchar.c.o: CMakeFiles/now.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/now.dir/_putchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/now.dir/_putchar.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/now.dir/_putchar.c.o -MF CMakeFiles/now.dir/_putchar.c.o.d -o CMakeFiles/now.dir/_putchar.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/_putchar.c
 
 CMakeFiles/now.dir/_putchar.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/now.dir/_putchar.c.s: cmake_force
 CMakeFiles/now.dir/0-print_listint.c.o: CMakeFiles/now.dir/flags.make
 CMakeFiles/now.dir/0-print_listint.c.o: /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/0-print_listint.c
 CMakeFiles/now.dir/0-print_listint.c.o: CMakeFiles/now.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/now.dir/0-print_listint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/now.dir/0-print_listint.c.o"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/now.dir/0-print_listint.c.o -MF CMakeFiles/now.dir/0-print_listint.c.o.d -o CMakeFiles/now.dir/0-print_listint.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/0-print_listint.c
 
 CMakeFiles/now.dir/0-print_listint.c.i: cmake_force
@@ -141,7 +155,8 @@ CMakeFiles/now.dir/0-print_listint.c.s: cmake_force
 
 # Object files for target now
 now_OBJECTS = \
-"CMakeFiles/now.dir/2-main.c.o" \
+"CMakeFiles/now.dir/3-main.c.o" \
+"CMakeFiles/now.dir/3-add_nodeint_end.c.o" \
 "CMakeFiles/now.dir/2-add_nodeint.c.o" \
 "CMakeFiles/now.dir/1-listint_len.c.o" \
 "CMakeFiles/now.dir/_putchar.c.o" \
@@ -150,14 +165,15 @@ now_OBJECTS = \
 # External object files for target now
 now_EXTERNAL_OBJECTS =
 
-now: CMakeFiles/now.dir/2-main.c.o
+now: CMakeFiles/now.dir/3-main.c.o
+now: CMakeFiles/now.dir/3-add_nodeint_end.c.o
 now: CMakeFiles/now.dir/2-add_nodeint.c.o
 now: CMakeFiles/now.dir/1-listint_len.c.o
 now: CMakeFiles/now.dir/_putchar.c.o
 now: CMakeFiles/now.dir/0-print_listint.c.o
 now: CMakeFiles/now.dir/build.make
 now: CMakeFiles/now.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable now"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable now"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/now.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

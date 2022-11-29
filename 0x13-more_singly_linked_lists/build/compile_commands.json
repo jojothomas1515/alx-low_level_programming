@@ -1,8 +1,13 @@
 [
 {
   "directory": "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build",
-  "command": "/usr/bin/gcc   -Wall -Werror -Wextra -pedantic -std=gnu89 -O3 -DNDEBUG -std=gnu90 -o CMakeFiles/now.dir/2-main.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-main.c",
-  "file": "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/2-main.c"
+  "command": "/usr/bin/gcc   -Wall -Werror -Wextra -pedantic -std=gnu89 -O3 -DNDEBUG -std=gnu90 -o CMakeFiles/now.dir/3-main.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-main.c",
+  "file": "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-main.c"
+},
+{
+  "directory": "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build",
+  "command": "/usr/bin/gcc   -Wall -Werror -Wextra -pedantic -std=gnu89 -O3 -DNDEBUG -std=gnu90 -o CMakeFiles/now.dir/3-add_nodeint_end.c.o -c /home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-add_nodeint_end.c",
+  "file": "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/3-add_nodeint_end.c"
 },
 {
   "directory": "/home/jojo/CLionProjects/alx-low_level_programming/0x13-more_singly_linked_lists/build",

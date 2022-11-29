@@ -201,29 +201,53 @@ now/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/2-add_nodeint.c.s
 .PHONY : 2-add_nodeint.c.s
 
-2-main.o: 2-main.c.o
-.PHONY : 2-main.o
+3-add_nodeint_end.o: 3-add_nodeint_end.c.o
+.PHONY : 3-add_nodeint_end.o
 
 # target to build an object file
-2-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/2-main.c.o
-.PHONY : 2-main.c.o
+3-add_nodeint_end.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-add_nodeint_end.c.o
+.PHONY : 3-add_nodeint_end.c.o
 
-2-main.i: 2-main.c.i
-.PHONY : 2-main.i
+3-add_nodeint_end.i: 3-add_nodeint_end.c.i
+.PHONY : 3-add_nodeint_end.i
 
 # target to preprocess a source file
-2-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/2-main.c.i
-.PHONY : 2-main.c.i
+3-add_nodeint_end.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-add_nodeint_end.c.i
+.PHONY : 3-add_nodeint_end.c.i
 
-2-main.s: 2-main.c.s
-.PHONY : 2-main.s
+3-add_nodeint_end.s: 3-add_nodeint_end.c.s
+.PHONY : 3-add_nodeint_end.s
 
 # target to generate assembly for a file
-2-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/2-main.c.s
-.PHONY : 2-main.c.s
+3-add_nodeint_end.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-add_nodeint_end.c.s
+.PHONY : 3-add_nodeint_end.c.s
+
+3-main.o: 3-main.c.o
+.PHONY : 3-main.o
+
+# target to build an object file
+3-main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-main.c.o
+.PHONY : 3-main.c.o
+
+3-main.i: 3-main.c.i
+.PHONY : 3-main.i
+
+# target to preprocess a source file
+3-main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-main.c.i
+.PHONY : 3-main.c.i
+
+3-main.s: 3-main.c.s
+.PHONY : 3-main.s
+
+# target to generate assembly for a file
+3-main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/now.dir/build.make CMakeFiles/now.dir/3-main.c.s
+.PHONY : 3-main.c.s
 
 _putchar.o: _putchar.c.o
 .PHONY : _putchar.o
@@ -267,9 +291,12 @@ help:
 	@echo "... 2-add_nodeint.o"
 	@echo "... 2-add_nodeint.i"
 	@echo "... 2-add_nodeint.s"
-	@echo "... 2-main.o"
-	@echo "... 2-main.i"
-	@echo "... 2-main.s"
+	@echo "... 3-add_nodeint_end.o"
+	@echo "... 3-add_nodeint_end.i"
+	@echo "... 3-add_nodeint_end.s"
+	@echo "... 3-main.o"
+	@echo "... 3-main.i"
+	@echo "... 3-main.s"
 	@echo "... _putchar.o"
 	@echo "... _putchar.i"
 	@echo "... _putchar.s"
