@@ -10,7 +10,7 @@ void free_listint2(listint_t **head)
 	listint_t *curr_node, *temp;
 
 	/* check to check if head points to a node else do nothing */
-	if (head != NULL && &head != NULL)
+	if (head != NULL && *head != NULL)
 	{
 		curr_node = *head;
 
