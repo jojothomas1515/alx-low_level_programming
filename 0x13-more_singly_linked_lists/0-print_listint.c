@@ -12,8 +12,8 @@ size_t print_listint(const listint_t *h)
 	const listint_t *curr_node = h;
 
 	/* checking if the pointer is valid*/
-	if (h == NULL)
-		return (0);
+	/* if (h == NULL)
+		return (0); */
 
 	/* check if node is valid and stop iterating if not*/
 	while (curr_node != NULL)
