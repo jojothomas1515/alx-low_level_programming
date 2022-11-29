@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	unsigned long int i, j, target, flag, res;
+	unsigned long long int i, j, target, flag, res;
 
-	target = 6126778987;
+	target = 612852475143;
 	res = 0;
 
 	for (i = 1; i <= target; i++)
@@ -29,6 +29,7 @@ int main(void)
 			if (flag == 0)
 			{
 				res = i;
+				printf("%lu, \n", res);
 			}
 		}
 	}

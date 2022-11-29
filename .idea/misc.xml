@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/0x07-pointers_arrays_strings">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/0x0F-function_pointers">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>

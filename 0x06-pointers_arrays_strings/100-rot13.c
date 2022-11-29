@@ -8,13 +8,12 @@
 
 char *rot13(char *str)
 {
-	int i, j;
-	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	int i,j;
+	char alpha[] =   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";	
 	char encoder[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	if (str == NULL)
 		return (NULL);
-		
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (j = 0; alpha[j] != '\0'; j++)
