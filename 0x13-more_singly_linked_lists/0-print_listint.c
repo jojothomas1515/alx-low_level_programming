@@ -20,7 +20,7 @@ size_t print_listint(const listint_t *h)
 		_putchar(h->n + '0');
 		_putchar('\n');
 	}
-	else if (h->next == NULL)
+	if (h->next == NULL)
 		return (count);
 	count += print_listint(h->next);
 	return (count);
