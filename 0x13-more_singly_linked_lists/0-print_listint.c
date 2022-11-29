@@ -16,7 +16,7 @@ size_t print_listint(const listint_t *h)
 		return (0);
 
 	/* check if node is valid and stop iterating if not*/
-	while (curr_node)
+	while (curr_node != NULL)
 	{
 		counts += _putchar(curr_node->n + '0');
 		_putchar('\n');
