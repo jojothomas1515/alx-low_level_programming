@@ -20,4 +20,4 @@ void print_binary(unsigned long int n);
 _u_int _strlen(const char *);
 _u_int _pow(_u_int, _u_int);
 int _putchar(char);
-#endif
+#endif /* MAIN_H*/
