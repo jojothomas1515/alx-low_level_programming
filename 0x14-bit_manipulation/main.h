@@ -19,5 +19,8 @@ void print_binary(unsigned long int n);
 /* other usefull prototype */
 _u_int _strlen(const char *);
 _u_int _pow(_u_int, _u_int);
+char *_strrev(char *str);
+void _print_string(char *str);
 int _putchar(char);
+
 #endif /* MAIN_H*/
