@@ -4,7 +4,6 @@
 
 /* standard libraries */
 #include <stdlib.h>
-#include <stdio.h>
 
 /* type definations */
 typedef unsigned int _u_int;
