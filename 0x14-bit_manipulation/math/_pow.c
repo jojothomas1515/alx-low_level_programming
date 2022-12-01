@@ -22,3 +22,4 @@ _u_int _pow(_u_int a, _u_int b)
 	}
 	return (result);
 }
+
