@@ -18,9 +18,10 @@ int get_bit(unsigned long int n, unsigned int index)
 	{
 		if (i == (index - 1))
 		{
+
 			return ((int)(char_ptr[i] - '0'));
 		}
-		return (-1);
+		i++;
 	}
 	return (-1);
 }
@@ -76,7 +77,6 @@ char *_strrev(char *str)
 	return (str);
 }
 
-
 /**
  * _strlen - get the length of a string
  * @str: target string
@@ -85,9 +85,9 @@ char *_strrev(char *str)
 
 _u_int _strlen(const char *str)
 {
-        _u_int i;
+	_u_int i;
 
-        for (i = 0; str[i] != '\0'; i++)
-                ;
-        return (i);
+	for (i = 0; str[i] != '\0'; i++)
+		;
+	return (i);
 }
