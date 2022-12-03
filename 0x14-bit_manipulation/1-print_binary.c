@@ -8,7 +8,7 @@
 
 void print_binary(unsigned long int n)
 {
-	_ul_int num = n;
+	int num =(int) n;
 	int i = 0;
 
 	if (n <= 0)
@@ -17,7 +17,7 @@ void print_binary(unsigned long int n)
 	}
 	else
 	{
-		while (((num >> i) > 1) || !((num >> 1) >= 1))
+		while (!((num >> i) <= 0))
 		{
 			i++;
 		}
