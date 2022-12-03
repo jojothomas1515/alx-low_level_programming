@@ -8,7 +8,7 @@
 
 void print_binary(unsigned long int n)
 {
-	int num =(int) n;
+	_ul_int num = n;
 	int i = 0;
 
 	if (n <= 0)
