@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
-#include "main.h"
+#include "../main.h"
 
 /**
  * main - check the code .
@@ -9,6 +9,7 @@
  */
 int main(void)
 {
+    printf("%lu\n",ULONG_MAX);
 	print_binary(ULONG_MAX);
 	printf("\n");
 	return (0);
