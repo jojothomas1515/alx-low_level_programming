@@ -17,7 +17,7 @@ void print_binary(unsigned long int n)
 	}
 	else
 	{
-		while (((num >> i) > 1))
+		while (((num >> i) > 1) || !((num >> 1) >= 1))
 		{
 			i++;
 		}
