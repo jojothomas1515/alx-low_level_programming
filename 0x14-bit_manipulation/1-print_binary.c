@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
+_ul_int bit_length(_ul_int n);
+
 /**
  * print_binary - converts int to binary
  * @n: integer to convert
@@ -8,8 +10,8 @@
 
 void print_binary(unsigned long int n)
 {
-	_ul_int num = n;
-	int i = 0;
+
+	_ul_int mask = 1;
 
 	if (n <= 0)
 	{
@@ -17,15 +19,27 @@ void print_binary(unsigned long int n)
 	}
 	else
 	{
-		while (!((num >> i) <= 0))
+		mask = mask << bit_length(n);
+
+		while (mask > 0)
 		{
-			i++;
-		}
-		i--;
-		while (i >= 0)
-		{
-			_putchar(((num >> i) & 1) + '0');
-			i--;
+			_putchar((n & mask ? '1' : '0'));
+
+			mask >>= 1;
 		}
 	}
+}
+
+_ul_int bit_length(_ul_int n)
+{
+
+	_ul_int num = n;
+	long int i = 0;
+
+	while (!((num >> i) <= 0))
+	{
+		i++;
+	}
+	i--;
+	return (i);
 }
