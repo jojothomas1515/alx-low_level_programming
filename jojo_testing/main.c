@@ -1,21 +1,31 @@
 #include <stdio.h>
+ 
+/*Defines four variables */
 
-int print(int nb)
-{
-	if (nb < 0)
-	{
-		return (0);
-	}
-	printf("%d\n", nb);
-	printf("%d", nb + print(nb - 1));
-	printf(" %d\n", nb);
-
-	nb --;
-	return (nb);
-}
-
+#define VARIABLES \
+    X(value1, 1)  \
+    X(value2, 2)  \
+    X(value3, 3)  \
+    X(value4, 4)
+ 
 int main(void)
 {
-	print(4);
-	return (0);
+
+
+    #define X(value, a) char value[10];
+        VARIABLES
+    #undef X
+      
+
+
+    #define X(value, a) scanf("\n%s", value);
+        VARIABLES
+    #undef X
+      
+    
+    #define X(value, a) printf("%d) %s\n", a, value);
+        VARIABLES
+    #undef X
+    return 0;
 }
+
