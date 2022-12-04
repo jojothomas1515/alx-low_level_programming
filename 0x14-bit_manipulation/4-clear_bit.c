@@ -1,4 +1,6 @@
 #include "main.h"
+#define CHAR_BITS 8
+#define INT_BITS (sizeof(unsigned long int) * CHAR_BITS)
 
 
 /**
@@ -16,7 +18,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	{
 		return (1);
 	}
-	else if (*n > 0)
+	else if (!(n > INT_BITS))
 	{
 		if ((j - (1 << index)) < 0)
 			return (1);
