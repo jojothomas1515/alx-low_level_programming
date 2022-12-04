@@ -1,5 +1,5 @@
 #include "main.h"
-#define CHAR_BITS 8
+0;115;0c#define CHAR_BITS 8
 #define INT_BITS (sizeof(unsigned long int) * CHAR_BITS)
 
 /**
@@ -13,7 +13,7 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	if (!(index > INT_BITS))
 	{
-		return ((index > n) & 1);
+		return ((n >> index) & 1);
 	}
 	return (-1);
 }
