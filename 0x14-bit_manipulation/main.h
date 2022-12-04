@@ -25,5 +25,6 @@ char *_strrev(char *str);
 void _print_string(char *str);
 int _putchar(char);
 char *_uint_to_binary(_ul_int n);
+int set_bit(unsigned long int *n, unsigned int index);
 
 #endif /* MAIN_H*/
