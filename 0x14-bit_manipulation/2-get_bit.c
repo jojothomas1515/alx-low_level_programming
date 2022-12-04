@@ -13,10 +13,12 @@ int get_bit(unsigned long int n, unsigned int index)
 	_u_int i = 0;
 
 	char_ptr = _uint_to_binary(n);
-
+	#ifdef DEBUG
+	printf("\n\nThe binary repr for %lu is [ %s ]\n\n", n, char_ptr);
+	#endif
 	while (char_ptr[i] != '\0')
 	{
-		if (i == (index - 1))
+		if (i == (index))
 		{
 
 			return ((int)(char_ptr[i] - '0'));

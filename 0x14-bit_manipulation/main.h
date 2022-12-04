@@ -4,9 +4,10 @@
 
 /* definations */
 #define B_BUFF_SIZE 1024
-
+/* #define DEBUG */
 /* standard libraries */
 #include <stdlib.h>
+#include <stdio.h>
 
 /* type definations */
 typedef unsigned int _u_int;
