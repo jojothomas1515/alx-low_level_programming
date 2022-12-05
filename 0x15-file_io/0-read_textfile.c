@@ -11,19 +11,20 @@ unsigned int _strlen(char *);
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	char buff[BUFF_SIZE];
+	char *buff;
 	int fd;
 	ssize_t w_count;
 
 	if (filename == NULL)
 		return (0);
+	buff = malloc(sizeof(char) * letters);
 
 	fd = open(filename, O_RDONLY);
 
 	if (fd == -1)
 		return (0);
-	read(fd, buff, letters);
-	buff[letters + 1] = '\0';
+	if (read(fd, buff, letters) == -1)
+		return (0);
 	fd = close(fd);
 	letters = letters > _strlen(buff) ? _strlen(buff) : letters;
 	w_count = write(STDOUT_FILENO, buff, letters);

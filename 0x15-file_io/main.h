@@ -4,6 +4,7 @@
 /* Included header files */
 #include <fcntl.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 /* definations */
 #define BUFF_SIZE 1024
