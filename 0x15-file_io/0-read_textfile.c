@@ -26,7 +26,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buff[letters + 1] = '\0';
 	fd = close(fd);
 	letters = letters > _strlen(buff) ? _strlen(buff) : letters;
-	w_count = write(STDOUT_FILENO,buff,letters);
+	w_count = write(STDOUT_FILENO, buff, letters);
 
 	if (w_count != (ssize_t)letters)
 		return (0);
