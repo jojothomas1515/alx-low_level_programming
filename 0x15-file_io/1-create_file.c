@@ -15,7 +15,7 @@ int create_file(const char *filename, char *text_content)
 
 	if (filename == NULL)
 		return (-1);
-	fd = open(filename, O_CREAT | O_WRONLY, 00600);
+	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 00600);
 	if (fd == -1)
 		return (-1);
 	if (text_content != NULL)
@@ -30,7 +30,11 @@ int create_file(const char *filename, char *text_content)
 		}
 		buff[i] = '\0';
 		if (write(fd, text_content, _strlen(text_content)) == -1)
+		{
+			free(buff);
 			return (-1);
+		}
+		free(buff);
 		return (1);
 	}
 	return (1);
@@ -48,6 +52,5 @@ unsigned int _strlen(char *str)
 
 	while (str[count++] != '\0')
 		;
-	count--;
 	return (count);
 }
