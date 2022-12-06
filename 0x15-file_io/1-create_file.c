@@ -10,7 +10,8 @@ unsigned int _strlen(char *str);
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd;
+	int fd, i = 0;
+	char *buff;
 
 	if (filename == NULL)
 		return (-1);
@@ -19,6 +20,12 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content != NULL)
 	{
+		buff = malloc(sizeof(char) * (_strlen(text_content) + 1));
+		if (buff == NULL)
+			return (-1);
+		while (text_content[i] != NULL)
+			buff[i] = text_content[i++];
+		buff[i] = '\0';
 		if (write(fd, text_content, _strlen(text_content)) == -1)
 			return (-1);
 		return (1);
