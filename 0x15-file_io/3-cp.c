@@ -78,3 +78,35 @@ int print_string(char *str, int fd)
 	}
 	return (-1);
 }
+
+/**
+ * e_exit - exit with an err messsge and an error code
+ * @error: error code
+ * @str: name of the file
+ * @fd: file descriptor
+ */
+
+void e_exit(int error, char *str, int fd)
+{
+	switch (error)
+	{
+	case 97:
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+		exit(error);
+		break;
+	case 98:
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", str);
+		exit(error);
+		break;
+	case 99:
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", str);
+		exit(error);
+		break;
+	case 100:
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+		exit(error);
+		break;
+	default:
+		return (0);
+	}
+}
