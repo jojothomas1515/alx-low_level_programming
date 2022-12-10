@@ -17,8 +17,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		print_string("Usage: cp file_from file_to\n", STDERR_FILENO);
-		exit(97);
+		exit(97, "  ", 0);
 	}
 	FILE_FROM = argv[1];
 	FILE_TO = argv[2];
