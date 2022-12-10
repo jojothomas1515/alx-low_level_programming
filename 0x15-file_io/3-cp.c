@@ -24,21 +24,15 @@ int main(int argc, char *argv[])
 	FILE_TO = argv[2];
 
 	fd_fm = open(FILE_FROM, O_RDONLY);
-	fd_ft = open(FILE_TO, O_CREAT|O_WRONLY|O_TRUNC, 0664);
+	fd_ft = open(FILE_TO, O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	if (fd_fm == -1)
 	{
-		print_string("Error: Can't read from file ", STDERR_FILENO);
-		print_string(FILE_FROM, STDERR_FILENO);
-		print_string("\n", STDERR_FILENO);
-		exit(98);
+		exit(98, FILE_FROM, fd_fm);
 	}
 	if (fd_ft == -1)
 	{
-		print_string("Error: Can't write to ", STDERR_FILENO);
-		print_string(FILE_TO, STDERR_FILENO);
-		print_string("\n", STDERR_FILENO);
-		exit(99);
+		e_exit(99, FILE_TO, fd_ft);
 	}
 
 	while (1)
@@ -49,34 +43,11 @@ int main(int argc, char *argv[])
 			break;
 		write_status = write(fd_ft, txt_buff, 1);
 		if (write_status == -1)
-			exit(99);
+			e_exit(99, FILE_TO, fd_ft);
 
 	}
 
 	return (0);
-}
-
-/**
- * print_string - print string out to stdout
- *
- * @str: string to print
- * @iostream: what iostream to write to
- *
- * Return: word count on success or -1 on fail
- */
-
-int print_string(char *str, int fd)
-{
-	int words = 0, word_status = 0;
-
-	while (str[words] != '\0')
-		words++;
-	word_status = write(fd, str, words);
-	if (word_status != -1)
-	{
-		return(word_status);
-	}
-	return (-1);
 }
 
 /**
@@ -103,7 +74,7 @@ void e_exit(int error, char *str, int fd)
 		exit(error);
 		break;
 	case 100:
-		dprintf(STDERR_FILENO, "Error: Can't close file on %d\n", fd);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(error);
 		break;
 	default:
