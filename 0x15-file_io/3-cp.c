@@ -1,5 +1,6 @@
 #include "main.h"
 
+void e_exit(int error, char *str, int fd);
 /**
  * main - Entry point of the program
  *
@@ -17,7 +18,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		exit(97, "  ", 0);
+		e_exit(97, "  ", 0);
 	}
 	FILE_FROM = argv[1];
 	FILE_TO = argv[2];
@@ -27,7 +28,7 @@ int main(int argc, char *argv[])
 
 	if (fd_fm == -1)
 	{
-		exit(98, FILE_FROM, fd_fm);
+		e_exit(98, FILE_FROM, fd_fm);
 	}
 	if (fd_ft == -1)
 	{
