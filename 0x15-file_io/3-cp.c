@@ -107,6 +107,6 @@ void e_exit(int error, char *str, int fd)
 		exit(error);
 		break;
 	default:
-		return (0);
+		break;
 	}
 }
