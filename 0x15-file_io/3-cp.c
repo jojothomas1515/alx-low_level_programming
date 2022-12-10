@@ -103,7 +103,7 @@ void e_exit(int error, char *str, int fd)
 		exit(error);
 		break;
 	case 100:
-		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+		dprintf(STDERR_FILENO, "Error: Can't close file on %d\n", fd);
 		exit(error);
 		break;
 	default:
