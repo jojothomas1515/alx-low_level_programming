@@ -30,12 +30,18 @@ void print_number(int n)
 
 	num_str[len] = '\0';
 	len--;
-
+	if (num == 0)
+		_putchar('0');
+	if (num < 0)
+	{
+		_putchar('-');
+		num *= -1;
+	}
 	while (num != 0)
 	{
-		len--;
 		num_str[len] = (num % 10) + 48;
 		num /= 10;
+		len--;
 	}
 
 	while (num_str[i] != '\0')
