@@ -7,7 +7,7 @@
 int main(void)
 {
 
-	time_t *timer;
+	time_t *timer = NULL;
 	int value, i = 0, upper, lower;
 
 	upper = 122;
