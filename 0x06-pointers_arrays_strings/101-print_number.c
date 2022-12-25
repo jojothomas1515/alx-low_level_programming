@@ -33,9 +33,9 @@ void print_number(int n)
 
 	while (num != 0)
 	{
+		len--;
 		num_str[len] = (num % 10) + 48;
 		num /= 10;
-		len--;
 	}
 
 	while (num_str[i] != '\0')
