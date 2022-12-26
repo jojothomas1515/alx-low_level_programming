@@ -5,9 +5,9 @@
  * @n: the number
  * Return: the length
  */
-int num_length(int n)
+_lu_int num_length(_lu_int n)
 {
-	int num = n, len = 0;
+	_lu_int num = n, len = 0;
 
 	if (num < 0)
 	{
@@ -25,13 +25,13 @@ int num_length(int n)
 }
 
 /**
- * _itoa - convert a number into a string
+ * _itoa - convert a number _lu_into a string
  * @n: the number
  * Return: String with memory on heap, to be explicitly freed
  */
-char *_itoa(int n)
+char *_itoa(_lu_int n)
 {
-	int len = num_length(n), num = n;
+	_lu_int len = num_length(n), num = n;
 	char *str = malloc(sizeof(char) * (len + 1));
 
 	if (str == NULL)
@@ -59,14 +59,14 @@ char *_itoa(int n)
 }
 
 /**
- * _atoi - convert string to int
+ * _atoi - convert string to _lu_int
  * @str: the target string
- * Return: the int of the string number
+ * Return: the _lu_int of the string number
  */
-long int _atoi(char *str)
+_lu_int _atoi(char *str)
 {
 	char *s = str;
-	int result = 0, i = 0, sign = 1;
+	_lu_int result = 0, i = 0, sign = 1;
 
 	while (s[i] != '\0')
 	{
@@ -86,10 +86,10 @@ long int _atoi(char *str)
  * @str: the string
  * Return: length of the string
  */
-int _strlen(char *str)
+_lu_int _strlen(char *str)
 {
 	char *s = str;
-	int i, len;
+	_lu_int i, len;
 
 	for (i = 0; s[i] != '\0'; i++)
 		;
@@ -105,9 +105,9 @@ int _strlen(char *str)
  * Return: the addr of @r
  */
 
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
+char *infinite_add(char *n1, char *n2, char *r, _lu_int size_r)
 {
-	int num1, num2, result, i = 0;
+	_lu_int num1, num2, result, i = 0;
 	char *buff;
 
 	if (_strlen(n1) > (size_r - 1) || _strlen(n2) > (size_r - 1))

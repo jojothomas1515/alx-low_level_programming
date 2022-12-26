@@ -6,7 +6,7 @@
  */
 void print_number(int n)
 {
-	int num = n;
+	_lu_int num = n;
 
 	if (num < 0)
 	{
