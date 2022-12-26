@@ -34,7 +34,6 @@ int _strlen(char *str)
 	int i = 0;
 
 	if (str != NULL && *s != '\0')
-		;
 	{
 		i = 1;
 		i += _strlen((s + 1));
