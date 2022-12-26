@@ -10,12 +10,10 @@
 int divisors(int n, int m)
 {
 
-	while (m < n)
-	{
-		if ((n % m) == 0)
-			return (0);
-		m++;
-	}
+	if ((n % m) == 0)
+		return (0);
+	m++;
+	divisors(n, m);
 	return (1);
 }
 
