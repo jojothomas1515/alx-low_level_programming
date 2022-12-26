@@ -5,7 +5,7 @@
  * @n: the number
  * Return: the length
  */
-unsigned int num_length(int n)
+int num_length(int n)
 {
 	int num = n, len = 0;
 
@@ -66,7 +66,7 @@ char *_itoa(int n)
 long int _atoi(char *str)
 {
 	char *s = str;
-	int result, i = 0, sign = 1;
+	int result = 0, i = 0, sign = 1;
 
 	while (s[i] != '\0')
 	{
@@ -107,16 +107,19 @@ int _strlen(char *str)
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	long int num1, num2, result, i = 0;
+	int num1, num2, result, i = 0;
 	char *buff;
 
-	if (_strlen(n1) > size_r || _strlen(n2) > size_r)
-		return (NULL);
+	if (_strlen(n1) > (size_r - 1) || _strlen(n2) > (size_r - 1))
+		return (0);
 
 	num1 = _atoi(n1);
 	num2 = _atoi(n2);
 
 	result = num1 + num2;
+
+	if (num_length(result) >= size_r)
+		return (0);
 	buff = _itoa(result);
 	for (i = 0; buff[i] != '\0'; i++)
 		r[i] = buff[i];
