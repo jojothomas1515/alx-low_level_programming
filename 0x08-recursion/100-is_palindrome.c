@@ -33,8 +33,12 @@ int _strlen(char *str)
 	char *s = str;
 	int i = 0;
 
-	while (*(s + i) != '\0')
-		i++;
+	if (str != NULL && *s != '\0')
+		;
+	{
+		i = 1;
+		i += _strlen((s + 1));
+	}
 	return (i);
 }
 
@@ -43,7 +47,7 @@ int _strlen(char *str)
  * @str:target string
  * @n: number to minus from total length
  * Return: 1 if true and 0 if false
-*/
+ */
 int check_palin(char *str, int n)
 {
 	int len = 0;
