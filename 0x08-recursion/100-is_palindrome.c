@@ -8,12 +8,12 @@ int _strlen(char *str);
  */
 int is_palindrome(char *s)
 {
-	int len = 0, i = 0, flag = 1;
+	int len = 0, i = 0;
 
 	len = _strlen(s);
 	len--;
 
-	while (i != (len / 2))
+	while (i < (len - i))
 	{
 		if (s[i] == s[len - i])
 		{
