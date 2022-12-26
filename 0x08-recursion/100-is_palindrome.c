@@ -15,8 +15,11 @@ int is_palindrome(char *s)
 
 	while (i != (len / 2))
 	{
-		if (s[i] == s[len - i++])
+		if (s[i] == s[len - i])
+		{
+			i++;
 			continue;
+		}
 		else
 			return (0);
 	}
