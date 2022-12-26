@@ -9,11 +9,14 @@
 
 int divisors(int n, int m)
 {
-	if ((n % m) == 0)
-		return (0);
 
-	if (m < n)
-		return (divisors(n, m + 2));
+	while (m < n)
+	{
+		if ((n % m) == 0)
+			return (0);
+		m++;
+	}
+	return (1);
 }
 
 /**
@@ -24,12 +27,14 @@ int divisors(int n, int m)
 
 int is_prime_number(int n)
 {
-	if (n == 2 || n < 2)
+	if (n == 2)
 	{
-		return (0);
+		return (1);
 	}
-	else if ((n % 2) == 0)
+	else if (((n % 2) == 0) || n < 2)
 		return (0);
+	if (n == 3)
+		return (1);
 
 	return (divisors(n, 3));
 }
