@@ -1,5 +1,6 @@
 #include "main.h"
 int _strlen(char *str);
+int check_palin(char *str, int n);
 
 /**
  * is_palindrome - test if a string is palindrome
@@ -8,22 +9,18 @@ int _strlen(char *str);
  */
 int is_palindrome(char *s)
 {
-	int len = 0, i = 0;
+	int len = 0;
 
 	len = _strlen(s);
 	len--;
 
-	while (i < (len - i))
-	{
-		if (s[i] == s[len - i])
-		{
-			i++;
-			continue;
-		}
-		else
-			return (0);
-	}
-	return (1);
+	if (len == 0)
+		return (1);
+
+	if (*s == s[len])
+		return (check_palin((s + 1), 1));
+
+	return (0);
 }
 
 /**
@@ -39,4 +36,26 @@ int _strlen(char *str)
 	while (*(s + i) != '\0')
 		i++;
 	return (i);
+}
+
+/**
+ * check_palin - is_pallindrome helper function
+ * @str:target string
+ * @n: number to minus from total length
+ * Return: 1 if true and 0 if false
+*/
+int check_palin(char *str, int n)
+{
+	int len = 0;
+
+	len = _strlen(str);
+	len--;
+
+	if ((len - n) <= 0)
+		return (1);
+
+	if (*str == str[len - n])
+		return (check_palin((str + 1), n + 1));
+
+	return (0);
 }
