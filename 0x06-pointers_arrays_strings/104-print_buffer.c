@@ -26,11 +26,14 @@ void print_buffer(char *b, int size)
 
 	for (i = 0; i < ((size / 10) + ((size % 10) ? 1 : 0)); i++)
 	{
-		printf("%p: ", &b[i]);
+		printf("%08x: ", i * 10);
 
 		for (j = 1; j <= 10; j++)
 		{
-			printf("%02x", b[j - 1]);
+			if ((j + print_size) <= size)
+				printf("%02x", b[j - 1]);
+			else
+				printf("  ");
 			if ((j % 2) == 0)
 				printf(" ");
 		}
