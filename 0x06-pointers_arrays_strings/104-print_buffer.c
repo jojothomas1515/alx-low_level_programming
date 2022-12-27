@@ -24,6 +24,9 @@ void print_buffer(char *b, int size)
 {
 	int i, j, print_size = 0;
 
+	if (size == 0)
+		_putchar('\n');
+
 	for (i = 0; i < ((size / 10) + ((size % 10) ? 1 : 0)); i++)
 	{
 		printf("%08x: ", i * 10);
