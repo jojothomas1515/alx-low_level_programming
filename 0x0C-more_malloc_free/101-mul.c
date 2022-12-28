@@ -5,7 +5,7 @@
  * @ac: args count
  * @av: args variable
  */
-void main(int ac, char *av[])
+int main(int ac, char *av[])
 {
 	int i;
 	unsigned long result = 0;
@@ -36,5 +36,5 @@ void main(int ac, char *av[])
 	result = (atoi(av[1]) * atoi(av[2]));
 
 	printf("%lu\n", result);
-	exit(EXIT_SUCCESS);
+	return (0);
 }
