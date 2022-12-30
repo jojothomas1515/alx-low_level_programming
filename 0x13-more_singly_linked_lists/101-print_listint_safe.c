@@ -11,10 +11,10 @@ size_t print_listint_safe(const listint_t *head)
 	listint_t *curr_node;
 	int i = 0, counts;
 
-	if (head == NULL || (*head) == NULL)
+	if (head == NULL)
 		exit(98);
 
-	curr_node = (*head);
+	curr_node = head;
 	while (curr_node)
 	{
 		printf("%d\n", curr_node->n);
