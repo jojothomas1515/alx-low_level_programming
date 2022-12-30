@@ -4,6 +4,7 @@
  * main - multiply two number
  * @ac: args count
  * @av: args variable
+ * Return: the result
  */
 int main(int ac, char *av[])
 {
@@ -33,7 +34,7 @@ int main(int ac, char *av[])
 		}
 	}
 
-	result = (atoi(av[1]) * atoi(av[2]));
+	result = (atol(av[1]) * atol(av[2]));
 
 	printf("%lu\n", result);
 	return (0);
