@@ -8,7 +8,7 @@
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	listint_t *curr_node;
+	const listint_t *curr_node;
 	int i = 0, counts;
 
 	if (head == NULL)
