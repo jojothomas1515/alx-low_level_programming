@@ -45,12 +45,7 @@ int main(int argc, char *argv[])
 		if (write_status == -1)
 			e_exit(99, FILE_TO, fd_ft);
 	}
-	close_status = close(fd_fm);
-	if (close_status == -1)
-		e_exit(100, NULL, fd_fm);
-	close_status = close(fd_ft);
-	if (close_status == -1)
-		e_exit(100, NULL, fd_ft);
+	
 
 	return (0);
 }
