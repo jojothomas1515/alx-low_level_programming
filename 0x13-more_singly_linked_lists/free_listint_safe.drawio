@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-01T18:52:01.872Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="oMTENLJ8_ez3MT3ngsBw" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-01T19:50:44.430Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="A4I79jk0ePeOvYu06-yV" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2418" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,9 +183,9 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <UserObject label="While&#xa;t_node" lucidchartObjectId="bcVjLbV3sLRl" id="-EuLFVU4yD4jIDWXe8yd-37">
+        <UserObject label="WHILE&lt;br&gt;t_node != n_node" lucidchartObjectId="bcVjLbV3sLRl" id="-EuLFVU4yD4jIDWXe8yd-37">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;rhombus;fontSize=16.7;fontStyle=0;spacing=3.8;strokeOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;strokeWidth=2.3;align=center;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-            <mxGeometry x="975" y="1073" width="120" height="90" as="geometry" />
+            <mxGeometry x="960" y="1072.5" width="160" height="107.5" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" lucidchartObjectId="EiVjGUEaPr1p" id="-EuLFVU4yD4jIDWXe8yd-38">
