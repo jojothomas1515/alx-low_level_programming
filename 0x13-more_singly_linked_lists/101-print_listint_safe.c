@@ -24,7 +24,7 @@ size_t print_listint_safe(const listint_t *head)
 		t_node = head;
 		if (t_node == t_node->next)
 		{
-			printf("-> [%p] %d", (void *)&t_node->n, t_node->n);
+			printf("-> [%p] %d\n", (void *)&t_node->n, t_node->n);
 
 			break;
 		}
@@ -32,13 +32,12 @@ size_t print_listint_safe(const listint_t *head)
 		{
 			if (t_node == c_node->next)
 			{
-				printf("-> [%p] %d", (void *)&t_node->n, t_node->n);
+				printf("-> [%p] %d\n", (void *)&t_node->n, t_node->n);
 				exit_flag = 0;
 			}
 			t_node = t_node->next;
 		}
 		c_node = c_node->next;
 	}
-	printf("\n");
 	return (counts);
 }
