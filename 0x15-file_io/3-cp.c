@@ -37,11 +37,11 @@ int main(int argc, char *argv[])
 
 	while (1)
 	{
-		read_status = read(fd_fm, txt_buff, 1024);
+		read_status = read(fd_fm, txt_buff, 1);
 
 		if (read_status == 0)
 			break;
-		write_status = write(fd_ft, txt_buff, read_status);
+		write_status = write(fd_ft, txt_buff, 1);
 		if (write_status == -1)
 			e_exit(99, FILE_TO, fd_ft);
 	}
