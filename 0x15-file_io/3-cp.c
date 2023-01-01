@@ -39,8 +39,10 @@ int main(int argc, char *argv[])
 	{
 		read_status = read(fd_fm, txt_buff, 1);
 
-		if (read_status == 0)
+		if (read_status == -1)
 			e_exit(98, FILE_FROM, fd_fm);
+		if (read_status == 0)
+			break;
 		write_status = write(fd_ft, txt_buff, 1);
 		if (write_status == -1)
 			e_exit(99, FILE_TO, fd_ft);
