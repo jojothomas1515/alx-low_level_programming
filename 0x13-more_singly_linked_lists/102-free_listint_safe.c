@@ -23,6 +23,8 @@ size_t free_listint_safe(listint_t **h)
 	while (n_node != NULL && stop_flag == 0)
 	{
 		t_node = *h;
+		if (n_node == n_node->next)
+			n_node->next = NULL;
 		while (t_node != n_node)
 		{
 			if (t_node == n_node->next)
