@@ -12,7 +12,10 @@ size_t print_listint_safe(const listint_t *head)
 	const listint_t *c_node = head, *t_node;
 
 	if (head == NULL)
+	{
+		printf("0\n");
 		exit(98);
+	}
 
 	while (c_node != NULL && exit_flag)
 	{
