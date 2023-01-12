@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * print_dlistint - prints a linked list
+ * dlistint_len - compute the length of a doubly linked list
  * @h: head node of the linked list
- * Return: The number of elements printed
+ * Return: length
  */
-size_t print_dlistint(const dlistint_t *h)
+size_t dlistint_len(const dlistint_t *h)
 {
 	const dlistint_t *curr_node;
 	int counts = 0;
@@ -18,9 +18,7 @@ size_t print_dlistint(const dlistint_t *h)
 	while (curr_node)
 	{
 		counts++;
-		printf("%d\n", curr_node->n);
 		curr_node = curr_node->next;
 	}
-
 	return ((size_t)counts);
 }
