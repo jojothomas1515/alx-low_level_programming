@@ -42,5 +42,6 @@ typedef struct hash_table_s
 
 /* functions prototype declaration */
 hash_table_t *hash_table_create(unsigned long int size);
+unsigned long int hash_djb2(const unsigned char *str)
 
 #endif /* INC_0X1A_HASH_TABLES__HASH_TABLES_H_ */
