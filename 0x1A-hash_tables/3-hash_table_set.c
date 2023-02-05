@@ -28,21 +28,22 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	idx = key_index((unsigned char *) key, ht->size);
 	cn = ht->array[idx];
+
 	if (ht->array[idx] == NULL)
 		ht->array[idx] = hn;
-	else
+
+	while (cn)
 	{
-		while (cn)
+		if (strcmp(cn->key, key) == 0)
 		{
-			if (strcmp(cn->key, key) == 0)
-			{
-				free(cn->value);
-				cn->value = strdup(value);
-			}
+			free(cn->value);
+			cn->value = strdup(value);
+			return (1);
 		}
-		hn->next = ht->array[idx];
-		ht->array[idx] = hn;
 	}
+
+	hn->next = ht->array[idx];
+	ht->array[idx] = hn;
 
 	return (1);
 }
