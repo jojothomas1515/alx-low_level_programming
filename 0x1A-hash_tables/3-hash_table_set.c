@@ -43,6 +43,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			cn->value = strdup(value);
 			return (1);
 		}
+		cn = cn->next;
 	}
 
 	hn->next = ht->array[idx];
