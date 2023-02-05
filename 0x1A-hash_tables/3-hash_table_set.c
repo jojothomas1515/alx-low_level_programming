@@ -30,7 +30,10 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	cn = ht->array[idx];
 
 	if (ht->array[idx] == NULL)
+	{
 		ht->array[idx] = hn;
+		return (1);
+	}
 
 	while (cn)
 	{
