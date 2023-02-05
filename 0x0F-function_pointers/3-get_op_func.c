@@ -7,7 +7,7 @@
  *
  * Return: one of the operator functions to perform calculations
 */
-int (*get_op_func(char *s))(int a, int b)
+void(*get_op_func(char *s))(int a, int b)
 {
 	op_t ops[] = {{"+", op_add},
 		      {"-", op_sub},
