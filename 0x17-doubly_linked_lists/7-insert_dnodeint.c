@@ -20,7 +20,7 @@ size_t dlistint_len(const dlistint_t *h)
 		counts++;
 		curr_node = curr_node->next;
 	}
-	return ((size_t)counts);
+	return ((size_t) counts);
 }
 
 /**
@@ -32,20 +32,20 @@ size_t dlistint_len(const dlistint_t *h)
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	int len = (int)dlistint_len((*h));
+	int len = (int) dlistint_len((*h));
 	dlistint_t *cn = NULL, *nn = NULL;
 	unsigned int counts = 0;
 
 	if (h == NULL)
 		return (NULL);
 
-	if (((*h) == NULL && (int)idx == 0) || ((*h) != NULL && (int)idx == 0))
+	if (((*h) == NULL && (int) idx == 0) || ((*h) != NULL && (int) idx == 0))
 		return (add_dnodeint(h, n));
-	if ((*h) == NULL && (int)idx > 0)
+	if ((*h) == NULL && (int) idx > 0)
 		return (NULL);
-	if ((int)idx == (len - 1))
+	if ((int) idx == (len - 1))
 		return (add_dnodeint_end(h, n));
-	if ((int)idx > len - 1)
+	if ((int) idx > len - 1)
 		return (NULL);
 
 	nn = malloc(sizeof(dlistint_t));
@@ -57,19 +57,23 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	cn = (*h);
 
-	while (cn)
+	for (counts = 0; counts < idx && cn; counts++)
 	{
-		if (idx == counts)
-		{
-			cn->prev->next = nn;
-			nn->prev = cn->prev;
-			nn->next = cn;
-			cn->prev = nn;
-			return (nn);
-		}
-		counts++;
 		cn = cn->next;
 	}
-	free(nn);
-	return (NULL);
+
+	if (cn == NULL)
+	{
+		free(nn);
+		return (NULL);
+	}
+
+	nn->next = cn;
+	nn->prev = cn->prev;
+	cn->prev = nn;
+	if (nn->prev)
+		nn->prev->next = nn;
+
+	printf("value of current node is %d\n\n", cn->n);
+	return (nn);
 }
