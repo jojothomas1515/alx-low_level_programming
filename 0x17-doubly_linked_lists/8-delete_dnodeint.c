@@ -9,7 +9,6 @@ size_t dlistint_len(const dlistint_t *h)
 {
 	const dlistint_t *curr_node;
 	int counts = 0;
-	++
 
 	if (h == NULL)
 		return (0);
