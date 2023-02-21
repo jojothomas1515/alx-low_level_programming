@@ -74,6 +74,5 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	if (nn->prev)
 		nn->prev->next = nn;
 
-	printf("value of current node is %d\n\n", cn->n);
 	return (nn);
 }
