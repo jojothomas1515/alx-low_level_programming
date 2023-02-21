@@ -9,6 +9,7 @@ size_t dlistint_len(const dlistint_t *h)
 {
 	const dlistint_t *curr_node;
 	int counts = 0;
+	++
 
 	if (h == NULL)
 		return (0);
@@ -20,7 +21,7 @@ size_t dlistint_len(const dlistint_t *h)
 		counts++;
 		curr_node = curr_node->next;
 	}
-	return ((size_t)counts);
+	return ((size_t) counts);
 }
 
 /**
@@ -39,10 +40,10 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		return (-1);
 	cn = (*head);
 
-	if ((int)index > len)
+	if ((int) index > len)
 		return (-1);
 
-	if ((int)index == 0)
+	if ((int) index == 0)
 	{
 		if (cn->next)
 			(*head) = cn->next;
@@ -55,18 +56,20 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		return (1);
 	}
 
-	while (cn)
+	for (counts = 0; counts < index && cn; counts++)
 	{
-		if ((int)index == counts)
-		{
-			if (cn->prev)
-				cn->prev->next = cn->next;
-			if (cn->next)
-				cn->next->prev = cn->prev;
-			free(cn);
-			return (1);
-		}
+
 		cn = cn->next;
 	}
-	return (-1);
+
+	if (cn == NULL)
+		return (-1);
+
+	if (cn->prev)
+		cn->prev->next = cn->next;
+	if (cn->next)
+		cn->next->prev = cn->prev;
+	free(cn);
+	return (1);
+
 }
