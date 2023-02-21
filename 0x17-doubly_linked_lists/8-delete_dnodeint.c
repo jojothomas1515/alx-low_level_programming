@@ -55,7 +55,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		return (1);
 	}
 
-	for (counts = 0; counts < index && cn; counts++)
+	for (counts = 0; (size_t) counts < index && cn; counts++)
 	{
 
 		cn = cn->next;
