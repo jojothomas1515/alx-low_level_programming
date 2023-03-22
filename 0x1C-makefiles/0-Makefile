@@ -1,4 +1,3 @@
 #!/usr/bin/make -f
-
-school:
+all:
 	gcc main.c school.c -o school
