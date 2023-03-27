@@ -36,7 +36,6 @@ def island_perimeter(grid):
     """ This is  the interview question. """
     res: int = 0
     for idx, val in enumerate(grid):
-        print(len(grid))
         for j, vl in enumerate(val):
             if vl == 1:
                 res += check_perimeter(grid, idx, j)
