@@ -41,10 +41,9 @@ int binary_search(int *array, size_t size, int value)
 {
 	int start = 0, mid, end = size - 1;
 
-	print_array(array, start, end);
-
 	while (start <= end)
 	{
+		print_array(array, start, end);
 		mid = (start + end) / 2;
 		if (array[mid] < value)
 			start = mid + 1;
@@ -52,7 +51,6 @@ int binary_search(int *array, size_t size, int value)
 			end = mid - 1;
 		else
 			return (mid);
-		print_array(array, start, end);
 	}
 	return (-1);
 }
