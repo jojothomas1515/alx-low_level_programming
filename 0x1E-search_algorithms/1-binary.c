@@ -14,7 +14,7 @@ void print_array(int *array, int start, int end)
 
 	if (array == NULL)
 		return;
-
+	printf("Searching in array: ");
 	for (i = start; i <=  end; i++)
 	{
 		if (i == end)
