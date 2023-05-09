@@ -39,19 +39,19 @@ void print_array(int *array, int start, int end)
  */
 int binary_search(int *array, size_t size, int value)
 {
-	int start = 0, mid = ((size - 1) / 2), end = size - 1;
+	int start = 0, mid, end = size - 1;
 
 	print_array(array, start, end);
 
-	while (!(end < start))
+	while (start <= end)
 	{
-		if (array[mid] == value)
-			return (mid);
-		else if (value < array[mid])
-			end = mid - 1;
-		else if (value > array[mid])
-			start = mid + 1;
 		mid = (start + end) / 2;
+		if (array[mid] < value)
+			start = mid + 1;
+		else if (array[mid] > value)
+			end = mid - 1;
+		else
+			return (mid);
 		print_array(array, start, end);
 	}
 	return (-1);
